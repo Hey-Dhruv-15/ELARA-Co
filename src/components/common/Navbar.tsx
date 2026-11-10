@@ -289,7 +289,7 @@ export const Navbar: React.FC = () => {
           <div className="w-4/5 max-w-sm h-full bg-white dark:bg-elara-bg-dark border-r border-elara-border-light dark:border-elara-border-dark shadow-2xl p-6 flex flex-col justify-between overflow-y-auto animate-slide-up">
             <div className="space-y-6">
               <div className="border-b border-elara-border-light dark:border-elara-border-dark pb-4">
-                <Logo variant="full" size="sm" showTagline={true} />
+                <Logo variant="full" size="md" showTagline={true} />
               </div>
 
               {/* Main Links */}

@@ -9,6 +9,7 @@ import { Navbar } from './components/common/Navbar';
 import { Footer } from './components/common/Footer';
 import { ToastContainer } from './components/common/Toast';
 import { ScrollToTop } from './components/common/ScrollToTop';
+import { BoutiqueGuideBot } from './components/chat/BoutiqueGuideBot';
 
 import { HomePage } from './pages/HomePage';
 import { ShopPage } from './pages/ShopPage';
@@ -55,6 +56,7 @@ export const App: React.FC = () => {
                 </main>
                 <Footer />
                 <ToastContainer />
+                <BoutiqueGuideBot />
               </div>
             </Router>
           </WishlistProvider>

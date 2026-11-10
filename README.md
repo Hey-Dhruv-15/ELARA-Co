@@ -30,6 +30,16 @@ A persistent Light / Dark Theme toggle is situated in the top header and preserv
 
 ---
 
+## 🤖 1.1 Boutique Concierge Guide ("Elara")
+
+ELARA & CO. includes a built-in page-aware concierge chatbot featuring **Elara**:
+- **Page Context Tracking:** Automatically detects which route the user is browsing and displays a dynamic *"Viewing: [Page]"* banner.
+- **One-Click Page Tour:** Tap *"Tour Page ✨"* for a bespoke walkthrough of the current page.
+- **Natural Q&A:** Answers queries regarding budget gifts (under ₹299, ₹499, ₹999), bouquet care, promo coupons (`FIRST10`, `ELARA20`), and WhatsApp orders with clickable navigation buttons.
+- **Location:** [`src/components/chat/BoutiqueGuideBot.tsx`](file:///d:/ELARA%20%26%20CO/src/components/chat/BoutiqueGuideBot.tsx). Avatar assets are stored in `public/elara-avatar.jpg`.
+
+---
+
 ## 🛠️ 2. Technology Stack
 
 - **Framework:** React 18 (TypeScript)
