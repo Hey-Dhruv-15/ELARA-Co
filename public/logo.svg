@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="petal1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="50%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#C2410C"/>
+    </linearGradient>
+    <linearGradient id="petal2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="60%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&amp;display=swap');
+      .brand-title { font-family: 'Playfair Display', Georgia, serif; font-size: 88px; fill: #8A4A52; letter-spacing: 12px; font-weight: 500; }
+      .brand-co { font-family: 'Playfair Display', Georgia, serif; font-size: 58px; fill: #8A4A52; font-weight: 400; }
+      .brand-tagline { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 32px; fill: #8A4A52; }
+      .brand-ornament { stroke: #8A4A52; stroke-width: 1.5; opacity: 0.7; }
+    </style>
+  </defs>
+
+  <!-- Background Tint -->
+  <rect width="100%" height="100%" fill="#FFF8F6"/>
+
+  <!-- Botanical Lily Flower -->
+  <g transform="translate(320, 20) scale(1.1)">
+    <!-- Top Petal -->
+    <path d="M50 50 C44 26 36 10 52 2 C68 12 60 28 50 50 Z" fill="url(#petal1)"/>
+    <!-- Right Petal -->
+    <path d="M50 50 C68 34 86 32 96 46 C86 58 70 56 50 50 Z" fill="url(#petal2)"/>
+    <!-- Bottom Right Petal -->
+    <path d="M50 50 C66 62 80 78 70 92 C58 86 56 68 50 50 Z" fill="url(#petal1)"/>
+    <!-- Bottom Left Petal -->
+    <path d="M50 50 C38 68 28 86 14 78 C12 62 32 56 50 50 Z" fill="url(#petal2)"/>
+    <!-- Left Petal -->
+    <path d="M50 50 C28 42 12 36 8 22 C22 16 36 32 50 50 Z" fill="url(#petal1)"/>
+    
+    <!-- Freckles -->
+    <circle cx="52" cy="38" r="1.5" fill="#7C2D12"/>
+    <circle cx="48" cy="32" r="1.2" fill="#7C2D12"/>
+    <circle cx="55" cy="28" r="1.2" fill="#7C2D12"/>
+    <circle cx="62" cy="45" r="1.5" fill="#7C2D12"/>
+    <circle cx="68" cy="48" r="1.2" fill="#7C2D12"/>
+    <circle cx="42" cy="46" r="1.5" fill="#7C2D12"/>
+
+    <!-- Stamens -->
+    <path d="M50 50 Q56 40 60 36" stroke="#92400E" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="60" cy="36" r="2" fill="#78350F"/>
+    <path d="M50 50 Q52 36 49 30" stroke="#92400E" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="49" cy="30" r="2" fill="#78350F"/>
+    <path d="M50 50 Q44 42 38 40" stroke="#92400E" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="38" cy="40" r="2" fill="#78350F"/>
+  </g>
+
+  <!-- Brand Title -->
+  <text x="75" y="195" class="brand-title">ELARA</text>
+  <text x="375" y="195" class="brand-co">&amp; Co.</text>
+
+  <!-- Tagline -->
+  <text x="250" y="248" text-anchor="middle" class="brand-tagline">The extraordinary, made personal.</text>
+
+  <!-- Star Divider -->
+  <line x1="140" y1="275" x2="235" y2="275" class="brand-ornament"/>
+  <text x="250" y="280" text-anchor="middle" fill="#8A4A52" font-size="16">✧</text>
+  <line x1="265" y1="275" x2="360" y2="275" class="brand-ornament"/>
+</svg>
+
