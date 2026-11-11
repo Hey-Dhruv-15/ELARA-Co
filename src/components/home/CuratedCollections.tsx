@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GIFT_COLLECTIONS } from '../../data/collections';
 import { ImageWithFallback } from '../common/ImageWithFallback';
 import { ArrowRight, Gift } from 'lucide-react';
+import { useStore } from '../../context/StoreContext';
 
 export const CuratedCollections: React.FC = () => {
+  const { collections } = useStore();
+  const visibleCollections = collections.filter((c) => c.isVisible !== false);
+
   return (
     <section className="py-16 sm:py-20 bg-elara-bg-light-sec/30 dark:bg-elara-bg-dark-sec/30 border-t border-elara-border-light/60 dark:border-elara-border-dark transition-colors">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,9 +30,9 @@ export const CuratedCollections: React.FC = () => {
           </p>
         </div>
 
-        {/* 8 Curated Cards Grid */}
+        {/* Curated Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {GIFT_COLLECTIONS.map((col) => (
+          {visibleCollections.map((col) => (
             <Link
               key={col.id}
               to={`/shop?collection=${col.slug}`}
@@ -49,20 +52,19 @@ export const CuratedCollections: React.FC = () => {
               {/* Card Content Overlay */}
               <div className="relative z-10 text-white space-y-1.5">
                 {col.badge && (
-                  <span className="inline-block text-[10px] font-semibold tracking-widest uppercase bg-white/20 backdrop-blur-md px-2.5 py-0.5 rounded-full border border-white/20 text-elara-champagne">
+                  <span className="inline-block px-2.5 py-0.5 rounded-full bg-white/20 backdrop-blur-md text-[10px] font-semibold tracking-wider uppercase text-elara-champagne border border-white/20">
                     {col.badge}
                   </span>
                 )}
-                <h3 className="font-serif text-xl font-medium tracking-wide">
+                <h3 className="font-serif text-xl font-medium tracking-tight group-hover:text-elara-champagne transition-colors">
                   {col.title}
                 </h3>
                 <p className="text-xs text-white/80 line-clamp-2 leading-relaxed">
                   {col.subtitle}
                 </p>
-
-                <div className="pt-2 flex items-center gap-1 text-xs font-semibold text-elara-champagne group-hover:translate-x-1 transition-transform">
-                  <span>Explore Collection</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
+                <div className="pt-2 flex items-center gap-1.5 text-xs text-elara-champagne font-medium tracking-wide">
+                  <span>Shop Curations</span>
+                  <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
                 </div>
               </div>
             </Link>
@@ -72,4 +74,3 @@ export const CuratedCollections: React.FC = () => {
     </section>
   );
 };
-

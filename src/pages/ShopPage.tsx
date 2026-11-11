@@ -1,13 +1,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { PRODUCTS } from '../data/products';
-import { CATEGORIES } from '../data/categories';
-import { GIFT_COLLECTIONS } from '../data/collections';
 import { ProductCard } from '../components/common/ProductCard';
 import { QuickViewModal } from '../components/common/QuickViewModal';
 import { FilterSidebar, FilterState } from '../components/shop/FilterSidebar';
 import { Breadcrumb } from '../components/common/Breadcrumb';
 import { Product } from '../types';
+import { useStore } from '../context/StoreContext';
 import {
   SlidersHorizontal,
   Grid3X3,
@@ -20,6 +18,7 @@ import {
 
 export const ShopPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
+  const { products, categories, collections } = useStore();
 
   // Selected quick view product
   const [quickViewProduct, setQuickViewProduct] = useState<Product | null>(null);
@@ -97,7 +96,8 @@ export const ShopPage: React.FC = () => {
 
   // Filter & Sort Logic
   const filteredProducts = useMemo(() => {
-    return PRODUCTS.filter((product) => {
+    return products.filter((product) => {
+      if (product.isPublished === false) return false;
       // Search query
       if (filters.search.trim()) {
         const query = filters.search.toLowerCase().trim();
@@ -147,11 +147,11 @@ export const ShopPage: React.FC = () => {
           return b.reviewCount - a.reviewCount;
       }
     });
-  }, [filters]);
+  }, [filters, products]);
 
   // Current category name for heading
-  const currentCategory = CATEGORIES.find((c) => c.slug === filters.category);
-  const currentCollection = GIFT_COLLECTIONS.find((c) => c.slug === filters.collection);
+  const currentCategory = categories.find((c) => c.slug === filters.category);
+  const currentCollection = collections.find((c) => c.slug === filters.collection);
 
   const activeFiltersCount =
     (filters.category !== 'all' ? 1 : 0) +

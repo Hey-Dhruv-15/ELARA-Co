@@ -29,6 +29,8 @@ export interface Product {
   isBestseller?: boolean;
   isTrending?: boolean;
   isNewArrival?: boolean;
+  isFeatured?: boolean;
+  isPublished?: boolean;
   inStock: boolean;
   stockCount: number;
   sku: string;
@@ -54,6 +56,7 @@ export interface Category {
   description: string;
   itemCount: number;
   featured?: boolean;
+  displayOrder?: number;
 }
 
 export interface GiftCollection {
@@ -65,6 +68,8 @@ export interface GiftCollection {
   badge?: string;
   filterKey: string;
   filterValue: string;
+  productIds?: string[];
+  isVisible?: boolean;
 }
 
 export interface CartItem {
@@ -99,6 +104,32 @@ export interface CheckoutFormData {
   paymentMethod: 'card' | 'upi' | 'cod';
 }
 
+export interface UserAddress {
+  id: string;
+  fullName: string;
+  phone: string;
+  addressLine1: string;
+  addressLine2?: string;
+  city: string;
+  state: string;
+  pincode: string;
+  isDefault: boolean;
+}
+
+export interface UserProfile {
+  id: string;
+  name: string;
+  email: string;
+  phone?: string;
+  avatar?: string;
+  provider: 'google' | 'email' | 'admin';
+  role?: 'admin' | 'patron';
+  joinedDate: string;
+  addresses: UserAddress[];
+}
+
+export type OrderStatus = 'Pending' | 'Confirmed' | 'Shipped' | 'Delivered' | 'Cancelled';
+
 export interface OrderConfirmation {
   orderId: string;
   date: string;
@@ -110,4 +141,88 @@ export interface OrderConfirmation {
   shippingFee: number;
   total: number;
   paymentMethod: string;
+}
+
+export interface UserOrder extends OrderConfirmation {
+  status: OrderStatus;
+  trackingNumber: string;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
+export interface AuthState {
+  user: UserProfile | null;
+  isAuthenticated: boolean;
+  token: string | null;
+}
+
+// --- ADMIN SYSTEM TYPES ---
+
+export interface AdminUser {
+  id: string;
+  email: string;
+  name: string;
+  role: 'admin';
+  mustChangePassword: boolean;
+  createdAt: string;
+  lastLogin?: string;
+}
+
+export interface AdminAuthState {
+  admin: AdminUser | null;
+  token: string | null;
+  isAuthenticated: boolean;
+  mustChangePassword: boolean;
+}
+
+export interface HomepageContent {
+  hero: {
+    headline: string;
+    subtitle: string;
+    image: string;
+    primaryButtonText: string;
+    primaryButtonLink: string;
+    secondaryButtonText: string;
+    secondaryButtonLink: string;
+  };
+  announcement: {
+    enabled: boolean;
+    text: string;
+    couponCode: string;
+    discountText: string;
+  };
+  brandStory: {
+    headline: string;
+    subheading: string;
+    paragraph1: string;
+    paragraph2: string;
+    signatureTitle: string;
+    image: string;
+  };
+  newsletter: {
+    headline: string;
+    subtitle: string;
+  };
+}
+
+export interface PageContent {
+  slug: string;
+  title: string;
+  subtitle?: string;
+  heroImage?: string;
+  sections: {
+    heading: string;
+    body: string;
+  }[];
+  extraData?: Record<string, any>;
+  lastUpdated?: string;
+}
+
+export interface DashboardMetrics {
+  totalProducts: number;
+  totalCategories: number;
+  totalCollections: number;
+  totalOrders: number;
+  recentOrders: UserOrder[];
+  lowStockProducts: Product[];
 }

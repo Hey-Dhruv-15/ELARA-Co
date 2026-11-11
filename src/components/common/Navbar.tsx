@@ -4,7 +4,8 @@ import { Logo } from './Logo';
 import { useTheme } from '../../context/ThemeContext';
 import { useCart } from '../../context/CartContext';
 import { useWishlist } from '../../context/WishlistContext';
-import { PRODUCTS } from '../../data/products';
+import { useAuth } from '../../context/AuthContext';
+import { useStore } from '../../context/StoreContext';
 import { formatINR } from '../../utils/formatters';
 import {
   Search,
@@ -18,12 +19,17 @@ import {
   Sparkles,
   Gift,
   ArrowRight,
+  User,
+  ShieldCheck,
+  LogOut,
 } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
   const { totalItemsCount } = useCart();
   const { wishlistCount } = useWishlist();
+  const { user, isAuthenticated, logout, openAuthModal } = useAuth();
+  const { products, homepage } = useStore();
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -31,13 +37,17 @@ export const Navbar: React.FC = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
+
   const searchInputRef = useRef<HTMLInputElement>(null);
   const searchContainerRef = useRef<HTMLDivElement>(null);
+  const profileDropdownRef = useRef<HTMLDivElement>(null);
 
-  // Close mobile menu on route change
+  // Close mobile menu and dropdowns on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
     setIsSearchOpen(false);
+    setIsProfileDropdownOpen(false);
   }, [location.pathname]);
 
   // Handle scroll effect
@@ -56,7 +66,7 @@ export const Navbar: React.FC = () => {
     }
   }, [isSearchOpen]);
 
-  // Click outside to close search
+  // Click outside to close search and profile dropdown
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -65,21 +75,27 @@ export const Navbar: React.FC = () => {
       ) {
         setIsSearchOpen(false);
       }
+      if (
+        profileDropdownRef.current &&
+        !profileDropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsProfileDropdownOpen(false);
+      }
     };
-    if (isSearchOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
-    }
+    document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [isSearchOpen]);
+  }, []);
 
   // Filter search results
   const searchResults = searchQuery.trim()
-    ? PRODUCTS.filter(
-        (p) =>
-          p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          p.categoryName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          p.tagline.toLowerCase().includes(searchQuery.toLowerCase())
-      ).slice(0, 5)
+    ? products
+        .filter(
+          (p) =>
+            p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            p.categoryName?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            p.tagline?.toLowerCase().includes(searchQuery.toLowerCase())
+        )
+        .slice(0, 5)
     : [];
 
   const handleSearchSubmit = (e: React.FormEvent) => {
@@ -100,18 +116,29 @@ export const Navbar: React.FC = () => {
     { name: 'About Us', path: '/about' },
   ];
 
+  const announcement = homepage?.announcement || {
+    enabled: true,
+    text: 'UP TO 20% OFF — MAKE EVERY MOMENT SPECIAL',
+    couponCode: 'ELARA20',
+    discountText: 'Use code ELARA20',
+  };
+
   return (
     <header className="sticky top-0 z-40 w-full transition-all duration-300">
       {/* 1. Promotional Announcement Bar */}
-      <div className="bg-[#8A4A52] text-white py-2 px-4 text-center text-[11px] sm:text-xs font-medium tracking-widest uppercase transition-colors">
-        <div className="container mx-auto flex items-center justify-center gap-2">
-          <Sparkles className="w-3.5 h-3.5 text-elara-champagne animate-pulse-slow" />
-          <span>UP TO 20% OFF — MAKE EVERY MOMENT SPECIAL</span>
-          <span className="hidden md:inline text-elara-champagne font-serif italic normal-case tracking-normal pl-2">
-            Use code <strong className="font-semibold underline tracking-wider uppercase">ELARA20</strong>
-          </span>
+      {announcement.enabled !== false && (
+        <div className="bg-[#8A4A52] text-white py-2 px-4 text-center text-[11px] sm:text-xs font-medium tracking-widest uppercase transition-colors">
+          <div className="container mx-auto flex items-center justify-center gap-2">
+            <Sparkles className="w-3.5 h-3.5 text-elara-champagne animate-pulse-slow" />
+            <span>{announcement.text}</span>
+            {announcement.couponCode && (
+              <span className="hidden md:inline text-elara-champagne font-serif italic normal-case tracking-normal pl-2">
+                Use code <strong className="font-semibold underline tracking-wider uppercase">{announcement.couponCode}</strong>
+              </span>
+            )}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* 2. Main Navigation Bar */}
       <div
@@ -159,8 +186,8 @@ export const Navbar: React.FC = () => {
               ))}
             </nav>
 
-            {/* Right Action Icons: Search, Wishlist, Bag, Theme Toggle */}
-            <div className="flex items-center gap-1.5 sm:gap-3">
+            {/* Right Action Icons */}
+            <div className="flex items-center gap-1.5 sm:gap-2.5">
               {/* Search Toggle Button */}
               <button
                 type="button"
@@ -198,6 +225,104 @@ export const Navbar: React.FC = () => {
                   </span>
                 )}
               </Link>
+
+              {/* User Account / Profile Menu */}
+              <div className="relative" ref={profileDropdownRef}>
+                {isAuthenticated && user ? (
+                  <button
+                    type="button"
+                    onClick={() => setIsProfileDropdownOpen(!isProfileDropdownOpen)}
+                    className="flex items-center gap-1.5 p-1 sm:px-2 sm:py-1 rounded-full border border-elara-border-light dark:border-elara-border-dark hover:bg-elara-bg-light-sec dark:hover:bg-elara-bg-dark-sec transition-colors"
+                  >
+                    <img
+                      src={user.avatar || `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(user.name)}&backgroundColor=D9A6A5`}
+                      alt={user.name}
+                      className="w-6 h-6 rounded-full object-cover"
+                    />
+                    <span className="hidden md:inline text-xs font-semibold text-elara-text-dark dark:text-elara-text-light max-w-[80px] truncate">
+                      {user.name.split(' ')[0]}
+                    </span>
+                    {user.role === 'admin' && (
+                      <span className="hidden sm:inline-flex items-center px-1.5 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider bg-[#8A4A52] text-white">
+                        Admin
+                      </span>
+                    )}
+                    <ChevronDown className="w-3 h-3 text-elara-text-muted" />
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => openAuthModal()}
+                    className="p-2 rounded-full text-elara-text-dark dark:text-elara-text-light hover:bg-elara-bg-light-sec dark:hover:bg-elara-bg-dark-sec transition-colors flex items-center gap-1"
+                    title="Sign In / Register"
+                  >
+                    <User className="w-5 h-5" />
+                    <span className="hidden xl:inline text-xs font-semibold uppercase tracking-wider pl-1">
+                      Sign In
+                    </span>
+                  </button>
+                )}
+
+                {/* Profile Dropdown Menu */}
+                {isProfileDropdownOpen && isAuthenticated && user && (
+                  <div className="absolute right-0 mt-2 w-52 bg-white dark:bg-elara-card-dark rounded-2xl shadow-xl border border-elara-border-light dark:border-elara-border-dark py-2 z-50 animate-slide-up text-xs">
+                    <div className="px-4 py-2 border-b border-elara-border-light/70 dark:border-elara-border-dark/70">
+                      <p className="font-semibold text-elara-text-dark dark:text-elara-text-light truncate">
+                        {user.name}
+                      </p>
+                      <p className="text-[10px] text-elara-text-muted truncate">{user.email}</p>
+                    </div>
+
+                    {user.role === 'admin' && (
+                      <Link
+                        to="/admin/dashboard"
+                        onClick={() => setIsProfileDropdownOpen(false)}
+                        className="flex items-center justify-between px-4 py-2.5 bg-gradient-to-r from-rose-50 to-amber-50 dark:from-[#2a1719] dark:to-[#221c17] text-[#8A4A52] dark:text-[#E4A9AE] hover:brightness-95 transition-all font-semibold border-b border-elara-border-light dark:border-elara-border-dark"
+                      >
+                        <span className="flex items-center gap-2">
+                          <ShieldCheck className="w-4 h-4 text-[#8A4A52] dark:text-[#E4A9AE]" />
+                          <span>Admin Dashboard</span>
+                        </span>
+                        <span className="text-[9px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-[#8A4A52] text-white">
+                          Atelier
+                        </span>
+                      </Link>
+                    )}
+
+                    <Link
+                      to="/profile"
+                      onClick={() => setIsProfileDropdownOpen(false)}
+                      className="flex items-center gap-2.5 px-4 py-2 hover:bg-elara-bg-light dark:hover:bg-elara-bg-dark-sec transition-colors text-elara-text-dark dark:text-elara-text-light font-medium"
+                    >
+                      <User className="w-3.5 h-3.5 text-[#8A4A52]" />
+                      <span>My Profile &amp; Addresses</span>
+                    </Link>
+
+                    <Link
+                      to="/profile#orders"
+                      onClick={() => setIsProfileDropdownOpen(false)}
+                      className="flex items-center gap-2.5 px-4 py-2 hover:bg-elara-bg-light dark:hover:bg-elara-bg-dark-sec transition-colors text-elara-text-dark dark:text-elara-text-light font-medium"
+                    >
+                      <ShoppingBag className="w-3.5 h-3.5 text-[#8A4A52]" />
+                      <span>My Order History</span>
+                    </Link>
+
+                    <div className="border-t border-elara-border-light/70 dark:border-elara-border-dark/70 my-1 pt-1">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setIsProfileDropdownOpen(false);
+                          logout();
+                        }}
+                        className="w-full flex items-center gap-2.5 px-4 py-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-950/30 transition-colors font-medium text-left"
+                      >
+                        <LogOut className="w-3.5 h-3.5" />
+                        <span>Sign Out</span>
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
 
               {/* Theme Toggle (Sun/Moon) */}
               <button
@@ -292,6 +417,54 @@ export const Navbar: React.FC = () => {
                 <Logo variant="full" size="md" showTagline={true} />
               </div>
 
+              {/* User Account Tile */}
+              {isAuthenticated && user ? (
+                <div className="p-3 rounded-2xl bg-[#F7E9E7] dark:bg-[#302729] flex items-center justify-between">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <img
+                      src={user.avatar || `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(user.name)}&backgroundColor=D9A6A5`}
+                      alt={user.name}
+                      className="w-10 h-10 rounded-full object-cover"
+                    />
+                    <div className="min-w-0">
+                      <span className="font-semibold text-xs text-elara-text-dark dark:text-elara-text-light block truncate">
+                        {user.name}
+                      </span>
+                      <Link
+                        to="/profile"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="text-[10px] text-[#8A4A52] dark:text-elara-accent-dark font-semibold uppercase tracking-wider hover:underline"
+                      >
+                        View Account &rarr;
+                      </Link>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      logout();
+                      setIsMobileMenuOpen(false);
+                    }}
+                    className="p-1.5 text-red-600 hover:bg-red-50 rounded-lg"
+                    title="Sign Out"
+                  >
+                    <LogOut className="w-4 h-4" />
+                  </button>
+                </div>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    openAuthModal();
+                  }}
+                  className="w-full py-2.5 px-4 rounded-xl bg-[#8A4A52] text-white text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-2"
+                >
+                  <User className="w-4 h-4" />
+                  <span>Sign In / Register</span>
+                </button>
+              )}
+
               {/* Main Links */}
               <div className="space-y-3">
                 <span className="text-[11px] font-semibold uppercase tracking-widest text-elara-text-muted dark:text-elara-text-muted-dark">
@@ -318,41 +491,19 @@ export const Navbar: React.FC = () => {
                 </nav>
               </div>
 
-              {/* Curated Category Shortcuts */}
+              {/* Admin Portal Quick Link */}
               <div className="border-t border-elara-border-light dark:border-elara-border-dark pt-4">
-                <span className="text-[11px] font-semibold uppercase tracking-widest text-elara-text-muted dark:text-elara-text-muted-dark block mb-2">
-                  Popular Categories
-                </span>
-                <div className="grid grid-cols-2 gap-2 text-xs">
-                  <Link
-                    to="/shop?category=handmade-bracelets"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="p-2 rounded bg-elara-bg-light dark:bg-elara-bg-dark-sec hover:text-elara-accent-light"
-                  >
-                    Bracelets
-                  </Link>
-                  <Link
-                    to="/shop?category=aesthetic-bouquets"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="p-2 rounded bg-elara-bg-light dark:bg-elara-bg-dark-sec hover:text-elara-accent-light"
-                  >
-                    Bouquets
-                  </Link>
-                  <Link
-                    to="/shop?category=gift-hampers"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="p-2 rounded bg-elara-bg-light dark:bg-elara-bg-dark-sec hover:text-elara-accent-light"
-                  >
-                    Gift Hampers
-                  </Link>
-                  <Link
-                    to="/shop?category=coca-cola-collectibles"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="p-2 rounded bg-elara-bg-light dark:bg-elara-bg-dark-sec hover:text-elara-accent-light"
-                  >
-                    Retro Collectibles
-                  </Link>
-                </div>
+                <Link
+                  to="/admin/login"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="p-2.5 rounded-xl bg-[#FFF9F7] dark:bg-[#191516] border border-elara-border-light dark:border-elara-border-dark flex items-center justify-between text-xs font-semibold text-[#8A4A52] dark:text-elara-accent-dark"
+                >
+                  <span className="flex items-center gap-2">
+                    <ShieldCheck className="w-4 h-4" />
+                    <span>Admin Control Atelier</span>
+                  </span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </div>
 
@@ -378,4 +529,3 @@ export const Navbar: React.FC = () => {
     </header>
   );
 };
-

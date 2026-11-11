@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "headline": "Artisanal Gifts for Gentle Souls",
+    "subtitle": "Updated via ELARA & CO. Admin Panel Live Editor",
+    "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1920&q=85",
+    "primaryButtonText": "Shop New Arrivals",
+    "primaryButtonLink": "/shop?sort=new-arrivals",
+    "secondaryButtonText": "Explore Bouquets",
+    "secondaryButtonLink": "/shop?category=aesthetic-bouquets"
+  },
+  "announcement": {
+    "enabled": true,
+    "text": "UP TO 20% OFF — MAKE EVERY MOMENT SPECIAL",
+    "couponCode": "ELARA20",
+    "discountText": "Use code ELARA20"
+  },
+  "brandStory": {
+    "headline": "A Little More Thought, A Little More Love.",
+    "subheading": "The ELARA & CO. Boutique Philosophy",
+    "paragraph1": "ELARA & CO. was born out of a gentle realization: in an increasingly rushed world, the gifts we give should slow down time. We believe a present isn't merely an object—it's an emotional bookmark, a quiet whisper that says 'I saw this and remembered you.'",
+    "paragraph2": "Every keepsake in our atelier is either shaped by artisan hands or thoughtfully curated to evoke serenity, aesthetic warmth, and lasting sentiment. From pure freshwater pearls strung on raw silk to everlasting botanicals that bloom through every season, our creations are little things designed to hold lasting feelings.",
+    "signatureTitle": "Curated with Grace & Devotion",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80"
+  },
+  "newsletter": {
+    "headline": "Stay in the Loop.",
+    "subtitle": "Join our inner circle for secret seasonal drops, bespoke artisan stories, and 10% off your inaugural order."
+  }
+}

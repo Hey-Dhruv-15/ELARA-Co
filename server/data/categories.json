@@ -1,0 +1,92 @@
+[
+  {
+    "id": "handmade-bracelets",
+    "name": "Handmade Bracelets",
+    "slug": "handmade-bracelets",
+    "image": "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?auto=format&fit=crop&w=800&q=80",
+    "description": "Delicate beaded charms, freshwater pearls, and woven thread bracelets made by hand with timeless grace.",
+    "itemCount": 8,
+    "featured": true
+  },
+  {
+    "id": "aesthetic-bouquets",
+    "name": "Aesthetic Bouquets",
+    "slug": "aesthetic-bouquets",
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80",
+    "description": "Everlasting preserved florals, crocheted blossom stems, and dried botanicals in romantic pastel hues.",
+    "itemCount": 6,
+    "featured": true
+  },
+  {
+    "id": "gift-hampers",
+    "name": "Gift Hampers",
+    "slug": "gift-hampers",
+    "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80",
+    "description": "Artisanal gift baskets packed with handcrafted scented treats, keepsakes, and personalized touches.",
+    "itemCount": 7,
+    "featured": true
+  },
+  {
+    "id": "coca-cola-collectibles",
+    "name": "Coca-Cola Collectibles",
+    "slug": "coca-cola-collectibles",
+    "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80",
+    "description": "Nostalgic vintage glassware, retro tin decor, and collectible aesthetic memorabilia for avid collectors.",
+    "itemCount": 4,
+    "featured": true
+  },
+  {
+    "id": "handmade-crafts",
+    "name": "Handmade Crafts",
+    "slug": "handmade-crafts",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80",
+    "description": "Sculpted soy candles, ceramic trinket dishes, and bespoke artisanal treasures crafted with patience.",
+    "itemCount": 6,
+    "featured": true
+  },
+  {
+    "id": "personalized-gifts",
+    "name": "Personalized Gifts",
+    "slug": "personalized-gifts",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+    "description": "Custom engraved lockets, initial monogram bookmarks, and keepsake frames made just for them.",
+    "itemCount": 5,
+    "featured": true
+  },
+  {
+    "id": "accessories",
+    "name": "Accessories",
+    "slug": "accessories",
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+    "description": "Silk scrunchies, pearl hair claws, woven tote bags, and everyday aesthetic accents.",
+    "itemCount": 6,
+    "featured": true
+  },
+  {
+    "id": "room-decor",
+    "name": "Room Decor",
+    "slug": "room-decor",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+    "description": "Sun-catcher crystals, warm fairy lights, botanical wall hangings, and ambient aesthetic lighting.",
+    "itemCount": 5,
+    "featured": true
+  },
+  {
+    "id": "stationery",
+    "name": "Stationery",
+    "slug": "stationery",
+    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
+    "description": "Deckle-edge paper journals, brass wax seal kits, gold-foil cards, and vintage journaling stickers.",
+    "itemCount": 5,
+    "featured": true
+  },
+  {
+    "id": "surprise-boxes",
+    "name": "Surprise Boxes",
+    "slug": "surprise-boxes",
+    "image": "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80",
+    "description": "Mystery curation boxes filled with boutique treats, self-care delights, and wrapped surprise tokens.",
+    "itemCount": 4,
+    "featured": true
+  }
+]

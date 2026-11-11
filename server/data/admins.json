@@ -1,0 +1,42 @@
+[
+  {
+    "id": "adm_supreeth",
+    "email": "supreethr101105@gmail.com",
+    "name": "Supreeth R",
+    "role": "admin",
+    "mustChangePassword": true,
+    "passwordHash": "$2b$10$XketpJ8wzI.Kpk2wOH5A3OPnsdTIkclBgvMDkwYGMKWlaa5onILyS",
+    "createdAt": "2026-11-11T03:45:32.215Z",
+    "lastLogin": "2026-11-11T12:51:59.045Z",
+    "passwordChangedAt": "2026-11-11T12:51:59.183Z"
+  },
+  {
+    "id": "adm_laasya",
+    "email": "laasyaarun18@gmail.com",
+    "name": "Laasya Arun",
+    "role": "admin",
+    "mustChangePassword": true,
+    "passwordHash": "$2b$10$gYXANRf1lS4Ws2mVH9VcWukfyEQvXLoiyy3/kWJwPlQIcf1m6okxW",
+    "createdAt": "2026-11-11T03:45:32.217Z"
+  },
+  {
+    "id": "adm_akankssha",
+    "email": "akankssha.mgr@gmail.com",
+    "name": "Akankssha M",
+    "role": "admin",
+    "mustChangePassword": true,
+    "passwordHash": "$2b$10$gYXANRf1lS4Ws2mVH9VcWukfyEQvXLoiyy3/kWJwPlQIcf1m6okxW",
+    "createdAt": "2026-11-11T03:45:32.217Z"
+  },
+  {
+    "id": "adm_dhruva",
+    "email": "hey.dhruva20@gmail.com",
+    "name": "Dhruva",
+    "role": "admin",
+    "mustChangePassword": true,
+    "passwordHash": "$2b$10$EwjT.NRZqomldh7RClEnfexJLOqoy6Ro4vGQuhC9kT.zdxpi10Iti",
+    "createdAt": "2026-11-11T03:45:32.217Z",
+    "lastLogin": "2026-11-11T12:51:59.363Z",
+    "passwordChangedAt": "2026-11-11T12:16:35.364Z"
+  }
+]

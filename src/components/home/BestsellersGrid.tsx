@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { PRODUCTS } from '../../data/products';
 import { ProductCard } from '../common/ProductCard';
 import { Product } from '../../types';
 import { Sparkles, ArrowRight } from 'lucide-react';
+import { useStore } from '../../context/StoreContext';
 
 interface BestsellersGridProps {
   onQuickView?: (product: Product) => void;
 }
 
 export const BestsellersGrid: React.FC<BestsellersGridProps> = ({ onQuickView }) => {
-  const bestsellers = PRODUCTS.filter((p) => p.isBestseller).slice(0, 8);
+  const { products } = useStore();
+  const bestsellers = products.filter((p) => p.isBestseller && p.isPublished !== false).slice(0, 8);
 
   return (
     <section className="py-16 sm:py-20 bg-elara-bg-light dark:bg-elara-bg-dark transition-colors">
@@ -49,4 +50,3 @@ export const BestsellersGrid: React.FC<BestsellersGridProps> = ({ onQuickView })
     </section>
   );
 };
-

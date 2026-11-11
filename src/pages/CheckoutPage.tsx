@@ -134,7 +134,17 @@ export const CheckoutPage: React.FC = () => {
           : 'Cash on Delivery (Demo)',
     };
 
-    setTimeout(() => {
+    setTimeout(async () => {
+      try {
+        await fetch('/api/orders', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(confirmation),
+        });
+      } catch (e) {
+        console.warn('Order saved locally', e);
+      }
+
       setOrderConfirmed(confirmation);
       clearCart();
       setIsSubmitting(false);

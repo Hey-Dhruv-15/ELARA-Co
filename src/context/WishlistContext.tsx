@@ -2,6 +2,8 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import { Product } from '../types';
 import { useCart } from './CartContext';
 import { useToast } from './ToastContext';
+import { useAuth } from './AuthContext';
+import { BackendService } from '../services/backendService';
 import { PRODUCTS } from '../data/products';
 
 interface WishlistContextType {
@@ -17,54 +19,91 @@ interface WishlistContextType {
 
 const WishlistContext = createContext<WishlistContextType | undefined>(undefined);
 
-const WISHLIST_STORAGE_KEY = 'elara_co_wishlist_v1';
-
 export const WishlistProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { addToCart } = useCart();
   const { showToast } = useToast();
+  const { user, isAuthenticated, openAuthModal } = useAuth();
 
   const [wishlistProductIds, setWishlistProductIds] = useState<string[]>(() => {
-    try {
-      const saved = localStorage.getItem(WISHLIST_STORAGE_KEY);
-      return saved ? JSON.parse(saved) : [];
-    } catch {
-      return [];
+    if (user?.id) {
+      return BackendService.getUserWishlist(user.id);
     }
+    return [];
   });
 
+  // Sync wishlist when active user changes
   useEffect(() => {
-    try {
-      localStorage.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(wishlistProductIds));
-    } catch (e) {
-      console.error('Failed to save wishlist to localStorage', e);
+    if (user?.id) {
+      const userWishlist = BackendService.getUserWishlist(user.id);
+      setWishlistProductIds(userWishlist);
+    } else {
+      setWishlistProductIds([]);
     }
-  }, [wishlistProductIds]);
+  }, [user?.id]);
+
+  // Sync wishlist to backend storage whenever modified
+  useEffect(() => {
+    if (user?.id) {
+      BackendService.saveUserWishlist(user.id, wishlistProductIds);
+    }
+  }, [wishlistProductIds, user?.id]);
 
   const isInWishlist = (productId: string): boolean => {
     return wishlistProductIds.includes(productId);
   };
 
   const toggleWishlist = (product: Product) => {
+    // Require authentication before modifying wishlist
+    if (!isAuthenticated || !user) {
+      openAuthModal({
+        message: 'Please sign in to save gifts to your wishlist',
+        onSuccess: () => {
+          toggleWishlist(product);
+        },
+      });
+      return;
+    }
+
     if (isInWishlist(product.id)) {
-      setWishlistProductIds((prev) => prev.filter((id) => id !== product.id));
+      const updated = wishlistProductIds.filter((id) => id !== product.id);
+      setWishlistProductIds(updated);
+      BackendService.saveUserWishlist(user.id, updated);
       showToast(`Removed "${product.name}" from your wishlist`, 'info');
     } else {
-      setWishlistProductIds((prev) => [...prev, product.id]);
+      const updated = [...wishlistProductIds, product.id];
+      setWishlistProductIds(updated);
+      BackendService.saveUserWishlist(user.id, updated);
       showToast(`Saved "${product.name}" to your wishlist`, 'success', 'Wishlist');
     }
   };
 
   const removeFromWishlist = (productId: string) => {
-    setWishlistProductIds((prev) => prev.filter((id) => id !== productId));
+    const updated = wishlistProductIds.filter((id) => id !== productId);
+    setWishlistProductIds(updated);
+    if (user?.id) {
+      BackendService.saveUserWishlist(user.id, updated);
+    }
   };
 
   const moveToCart = (product: Product) => {
+    if (!isAuthenticated || !user) {
+      openAuthModal({
+        message: 'Please sign in to move gifts to your shopping bag',
+        onSuccess: () => {
+          moveToCart(product);
+        },
+      });
+      return;
+    }
     addToCart(product, 1);
     removeFromWishlist(product.id);
   };
 
   const clearWishlist = () => {
     setWishlistProductIds([]);
+    if (user?.id) {
+      BackendService.saveUserWishlist(user.id, []);
+    }
   };
 
   // Hydrate full products from IDs
@@ -97,4 +136,3 @@ export const useWishlist = (): WishlistContextType => {
   }
   return context;
 };
-

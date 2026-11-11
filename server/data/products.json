@@ -1,0 +1,1961 @@
+[
+  {
+    "id": "elara-hb-01",
+    "name": "Seraphina Freshwater Pearl & Rose Quartz Bracelet",
+    "slug": "seraphina-freshwater-pearl-rose-quartz-bracelet",
+    "tagline": "Delicate freshwater pearls intertwined with blushing rose quartz chips",
+    "price": 449,
+    "originalPrice": 599,
+    "discountPercentage": 25,
+    "rating": 4.9,
+    "reviewCount": 128,
+    "category": "handmade-bracelets",
+    "categoryName": "Handmade Bracelets",
+    "collections": [
+      "under-499",
+      "for-her",
+      "handmade",
+      "birthday"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Each Seraphina bracelet is patiently hand-strung by our artisan studio using genuine baroque freshwater pearls, soft-pink rose quartz gemstones, and 14k gold-dipped clasp findings. A gentle reminder of self-love and graceful everyday elegance.",
+    "details": {
+      "material": "Genuine Cultured Freshwater Pearls, Natural Rose Quartz, 14K Gold Plated Brass",
+      "dimensions": "Adjustable length 16cm + 4cm extension chain",
+      "care": "Avoid direct contact with perfumes, lotions, and harsh chemicals. Store in your Elara velvet pouch.",
+      "packaging": "Presented in our signature embossed blush gift box with ribbon",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Genuine natural baroque pearls & raw rose quartz",
+      "Hypoallergenic, lead & nickel free",
+      "Extendable clasp fits all wrist sizes comfortably",
+      "Includes artisan authentication & care card"
+    ],
+    "variations": [
+      {
+        "name": "Finish",
+        "options": [
+          "14k Champagne Gold",
+          "Sterling Silver"
+        ]
+      },
+      {
+        "name": "Size",
+        "options": [
+          "Standard (16-20cm)",
+          "Petite (14-17cm)"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 18,
+    "sku": "ELR-BRC-001",
+    "reviews": [
+      {
+        "id": "rev-01",
+        "author": "Ananya S.",
+        "rating": 5,
+        "date": "2026-10-14",
+        "title": "Breathtaking craftsmanship!",
+        "comment": "The pearls have this subtle pearlescent shimmer that looks tenfold more expensive in person. The packaging made unboxing feel like a birthday morning.",
+        "verified": true,
+        "helpfulCount": 24
+      },
+      {
+        "id": "rev-02",
+        "author": "Rhea M.",
+        "rating": 5,
+        "date": "2026-09-28",
+        "title": "Bought for my sister, ordering another for myself",
+        "comment": "So lightweight yet sturdy. The rose quartz is authentic and cool to the touch.",
+        "verified": true,
+        "helpfulCount": 12
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-hb-02",
+    "name": "Aura Opal & Moonstone Beaded Charm Bracelet",
+    "slug": "aura-opal-moonstone-beaded-charm-bracelet",
+    "tagline": "Iridescent moonstone droplets catching soft morning sunlight",
+    "price": 389,
+    "originalPrice": 499,
+    "discountPercentage": 22,
+    "rating": 4.8,
+    "reviewCount": 94,
+    "category": "handmade-bracelets",
+    "categoryName": "Handmade Bracelets",
+    "collections": [
+      "under-499",
+      "for-her",
+      "handmade",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Featuring hand-polished iridescent moonstone beads and an ethereal celestial star charm. Designed for layering or wearing as a subtle minimalist statement piece.",
+    "details": {
+      "material": "Semi-precious Moonstone, Crystal beads, Stainless steel core",
+      "dimensions": "Elastic stretch fit (fits wrists 15cm - 19cm)",
+      "care": "Wipe gently with microfibre cloth after wear.",
+      "packaging": "Pastel keepsake cotton drawstring pouch",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "High-tensile durable stretch cord",
+      "Natural blue-sheen moonstone",
+      "Comfortable all-day wear",
+      "Handcrafted in small batches"
+    ],
+    "variations": [
+      {
+        "name": "Charm Motif",
+        "options": [
+          "North Star",
+          "Crescent Moon",
+          "Blossom"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 25,
+    "sku": "ELR-BRC-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-hb-03",
+    "name": "Woven Pastel Friendship Cord Bracelet Trio",
+    "slug": "woven-pastel-friendship-cord-bracelet-trio",
+    "tagline": "A set of three macramé woven cords with golden glass seed beads",
+    "price": 279,
+    "originalPrice": 349,
+    "discountPercentage": 20,
+    "rating": 4.7,
+    "reviewCount": 86,
+    "category": "handmade-bracelets",
+    "categoryName": "Handmade Bracelets",
+    "collections": [
+      "under-299",
+      "just-because",
+      "handmade",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A poetic celebration of friendship. Hand-knotted with Japanese Miyuki beads and soft satin cords in champagne, blush pink, and cream. Water-resistant and crafted to stay on through every adventure.",
+    "details": {
+      "material": "Nylon satin cord, Miyuki glass seed beads, 24k gold-washed beads",
+      "dimensions": "Sliding knot closure, fits 13cm to 24cm wrists",
+      "care": "Water-safe, quick drying.",
+      "packaging": "Attached to an illustrated sentiment card",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Includes 3 complementary coordinating bracelets",
+      "Adjustable pull-tie fits children and adults alike",
+      "Waterproof Japanese cords that never fade",
+      "Card reads: \"Side by side or miles apart\""
+    ],
+    "variations": [
+      {
+        "name": "Colorway",
+        "options": [
+          "Blush & Champagne",
+          "Lilac & Sage",
+          "Sunset Peach"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 40,
+    "sku": "ELR-BRC-003",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-bq-01",
+    "name": "Eternal Pastel Bloom Preserved Flower Bouquet",
+    "slug": "eternal-pastel-bloom-preserved-flower-bouquet",
+    "tagline": "Real dried florals & preserved baby breath that never wither",
+    "price": 899,
+    "originalPrice": 1199,
+    "discountPercentage": 25,
+    "rating": 5,
+    "reviewCount": 162,
+    "category": "aesthetic-bouquets",
+    "categoryName": "Aesthetic Bouquets",
+    "collections": [
+      "under-999",
+      "for-her",
+      "birthday",
+      "handmade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "An ethereal arrangement of preserved hydrangeas, bunny tails, dried lavender, and rosebud stems hand-wrapped in layered Korean frosted paper with a raw-edge chiffon ribbon. Lasts up to 3 years without water.",
+    "details": {
+      "material": "100% Real preserved botanical stems, Korean waterproof wrapping paper, chiffon ribbon",
+      "dimensions": "Height: 35cm, Width: 22cm",
+      "care": "Keep in dry indoor spaces away from high humidity and direct scorching sun. No watering required.",
+      "packaging": "Shipped in sturdy protective gift crate with complimentary handwritten greeting card",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Real blooms preserved using organic natural glycerin",
+      "Retains soft natural texture & delicate fragrance",
+      "Zero maintenance everlasting aesthetic decor",
+      "Complimentary personalized calligraphy gift tag"
+    ],
+    "variations": [
+      {
+        "name": "Ribbon Color",
+        "options": [
+          "Dusty Rose Chiffon",
+          "Champagne Satin",
+          "Ivory Organza"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 14,
+    "sku": "ELR-BQT-001",
+    "reviews": [
+      {
+        "id": "rev-03",
+        "author": "Meera K.",
+        "rating": 5,
+        "date": "2026-10-02",
+        "title": "Ordered for anniversary, sheer perfection",
+        "comment": "Smells heavenly of dried lavender and looks straight out of a Pinterest dream board. My wife was thrilled.",
+        "verified": true,
+        "helpfulCount": 31
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-bq-02",
+    "name": "Artisan Hand-Crocheted Tulip & Daisy Stem Bunch",
+    "slug": "artisan-hand-crocheted-tulip-daisy-stem-bunch",
+    "tagline": "Hand-knitted with plush cotton yarn in tender pastel shades",
+    "price": 499,
+    "originalPrice": 650,
+    "discountPercentage": 23,
+    "rating": 4.9,
+    "reviewCount": 78,
+    "category": "aesthetic-bouquets",
+    "categoryName": "Aesthetic Bouquets",
+    "collections": [
+      "under-499",
+      "for-her",
+      "handmade",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Each petal, leaf, and stem in this bouquet is hand-crocheted by our cooperative of talented women artisans. Features 2 peach tulips, 1 cream daisy, and a sprig of eucalyptus wire stems.",
+    "details": {
+      "material": "100% Milk Cotton Yarn, flexible iron florist stem",
+      "dimensions": "Height: 30cm, Bouquet spread: 18cm",
+      "care": "Dust lightly with a soft brush. Keep dry.",
+      "packaging": "Wrapped in craft paper tied with jute twine",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Handmade with love stitch-by-stitch",
+      "Bendable stems to arrange in any desk vase",
+      "Eternal bloom that will never fade",
+      "Eco-friendly sustainable gifting"
+    ],
+    "variations": [
+      {
+        "name": "Palette",
+        "options": [
+          "Peach & Cream",
+          "Baby Pink & White",
+          "Lilac & Lemon"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 22,
+    "sku": "ELR-BQT-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-bq-03",
+    "name": "Petite Lavender & White Baby Breath Desk Posy",
+    "slug": "petite-lavender-white-baby-breath-desk-posy",
+    "tagline": "A dainty French lavender bundle with ceramic mini vase",
+    "price": 299,
+    "originalPrice": 399,
+    "discountPercentage": 25,
+    "rating": 4.8,
+    "reviewCount": 110,
+    "category": "aesthetic-bouquets",
+    "categoryName": "Aesthetic Bouquets",
+    "collections": [
+      "under-299",
+      "just-because",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Naturally dried Provencal lavender stems nestled with snowy gypsophila. Infuses workdesks, vanity tables, and bedside nooks with peaceful aromatics and French country charm.",
+    "details": {
+      "material": "Sun-dried French Lavender, Preserved Gypsophila",
+      "dimensions": "Height: 20cm",
+      "care": "Natural botanicals. Handle with care.",
+      "packaging": "Includes mini glass apothecary vial",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "100% natural soothing lavender aroma",
+      "Includes complimentary clear apothecary bottle",
+      "Ideal for study desks & bedside tables",
+      "Zero maintenance required"
+    ],
+    "isBestseller": true,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 30,
+    "sku": "ELR-BQT-003",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-gh-01",
+    "name": "The Rosewater & Champagne Indulgence Hamper",
+    "slug": "rosewater-champagne-indulgence-hamper",
+    "tagline": "Our flagship signature luxury hamper for unforgettable celebrations",
+    "price": 1499,
+    "originalPrice": 1999,
+    "discountPercentage": 25,
+    "rating": 5,
+    "reviewCount": 215,
+    "category": "gift-hampers",
+    "categoryName": "Gift Hampers",
+    "collections": [
+      "under-999",
+      "birthday",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Curated to embody the essence of ELARA & CO. Contains: 1 Handcrafted Rose & Vanilla Soy Candle in amber glass, 1 Seraphina Pearl Bracelet, 1 Preserved Floral Posy, 1 Gold-foil Notebook, and 1 Tin of Organic Rose Petal Tea. Hand-packed in a rigid gold-stamped luxury keepsake box.",
+    "details": {
+      "material": "Artisanal soy wax, dried florals, 14k gold-plated jewelry, hardbound keepsake box",
+      "dimensions": "Box: 28cm x 22cm x 10cm",
+      "care": "Store food & tea in a cool, dry place. Burn candle within sight.",
+      "packaging": "Rigid magnetic gift box with champagne silk ribbon & wax seal finish",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Contains 5 full-sized premium boutique items",
+      "Sturdy keepsake box reusable for jewelry storage",
+      "Includes handwritten gold-ink calligraphy card",
+      "Free express insulated courier shipping"
+    ],
+    "variations": [
+      {
+        "name": "Candle Scent",
+        "options": [
+          "French Rose & Vanilla",
+          "Champagne & White Amber",
+          "Velvet Cashmere"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 12,
+    "sku": "ELR-HMP-001",
+    "reviews": [
+      {
+        "id": "rev-04",
+        "author": "Pooja R.",
+        "rating": 5,
+        "date": "2026-10-21",
+        "title": "Unbelievably luxurious presentation",
+        "comment": "The scent hit me the moment I untied the silk ribbon. The candle burns evenly and the bracelet is stunning.",
+        "verified": true,
+        "helpfulCount": 45
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-gh-02",
+    "name": "Cozy Solace Self-Care Gift Crate",
+    "slug": "cozy-solace-self-care-gift-crate",
+    "tagline": "Warm amber candle, mulberry silk sleep mask & herbal infusion",
+    "price": 949,
+    "originalPrice": 1250,
+    "discountPercentage": 24,
+    "rating": 4.9,
+    "reviewCount": 88,
+    "category": "gift-hampers",
+    "categoryName": "Gift Hampers",
+    "collections": [
+      "under-999",
+      "for-her",
+      "birthday",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The antidote to busy weekdays. Unwind with 1 Pure Mulberry Silk Eye Mask, 1 Hand-Poured Lavender & Chamomile Soy Candle, 1 Ceramic Trinket Plate, and 1 Chamomile Herbal Infusion Tin.",
+    "details": {
+      "material": "100% 22 Momme Mulberry Silk, 100% Soy Wax, Ceramic",
+      "dimensions": "Crate: 22cm x 18cm x 8cm",
+      "care": "Silk mask hand-wash only with mild detergent.",
+      "packaging": "Handmade pine wood crate with sliding acrylic lid",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Hypoallergenic Grade-6A Mulberry silk mask",
+      "Clean burning non-toxic soy wax candle (35 hours)",
+      "Artisanal pine wood gift crate",
+      "Ready to gift with zero extra wrapping needed"
+    ],
+    "variations": [
+      {
+        "name": "Eye Mask Color",
+        "options": [
+          "Blush Rose",
+          "Champagne Pearl",
+          "Dusty Lavender"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 16,
+    "sku": "ELR-HMP-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-gh-03",
+    "name": "Little Joys Petite Gift Hamper",
+    "slug": "little-joys-petite-gift-hamper",
+    "tagline": "A charming trio of boutique favorites under ₹499",
+    "price": 499,
+    "originalPrice": 650,
+    "discountPercentage": 23,
+    "rating": 4.8,
+    "reviewCount": 97,
+    "category": "gift-hampers",
+    "categoryName": "Gift Hampers",
+    "collections": [
+      "under-499",
+      "just-because",
+      "birthday"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Perfect for secret santas, return gifts, and spontaneous warm gestures. Contains 1 Bubble Cube Candle, 1 Pastel Beaded Phone Charm, and 1 Set of Gold-foil Mini Quote Cards.",
+    "details": {
+      "material": "Natural soy wax, acrylic beads, 350gsm cardstock",
+      "dimensions": "Box: 15cm x 15cm x 7cm",
+      "packaging": "Illustrated pastel box with satin bow",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Pocket-friendly luxury curated packaging",
+      "Great for birthdays, thank-you notes & bridesmaid favors",
+      "Includes mini handwritten message tag"
+    ],
+    "isBestseller": true,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 35,
+    "sku": "ELR-HMP-003",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-cc-01",
+    "name": "Vintage Coca-Cola Embossed Retro Glass Tumbler Duo",
+    "slug": "vintage-coca-cola-embossed-retro-glass-tumbler-duo",
+    "tagline": "Authentic heavy-base fluted glassware with iconic retro relief",
+    "price": 499,
+    "originalPrice": 699,
+    "discountPercentage": 28,
+    "rating": 4.9,
+    "reviewCount": 142,
+    "category": "coca-cola-collectibles",
+    "categoryName": "Coca-Cola Collectibles",
+    "collections": [
+      "under-499",
+      "for-him",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "A tribute to 1950s soda fountain memories. This pair of heavy-base Georgian green collectible glasses features raised embossed script typography and fluted tactile ribbing. A must-have centerpiece for retro beverage lovers and cafe aesthetics.",
+    "details": {
+      "material": "Heavy soda-lime pressed glassware, food-grade safe",
+      "dimensions": "Capacity: 350ml each, Height: 14.5cm, Diameter: 7.8cm",
+      "care": "Dishwasher safe, handle with care.",
+      "packaging": "Padded vintage cardboard presentation carton",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Set of 2 authentic heavy-weighted tumblers",
+      "Classic Georgia-green vintage tint glass",
+      "Tactile 3D embossed logo script",
+      "Perfect for iced sodas, floats, and cold brews"
+    ],
+    "variations": [
+      {
+        "name": "Tint",
+        "options": [
+          "Classic Georgia Green",
+          "Crystal Clear",
+          "Smoky Amber"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 20,
+    "sku": "ELR-COL-001",
+    "reviews": [
+      {
+        "id": "rev-05",
+        "author": "Arjun N.",
+        "rating": 5,
+        "date": "2026-10-09",
+        "title": "Heavier and sturdier than expected!",
+        "comment": "These glasses have that nostalgic diner weight to them. Looks aesthetic on the open bar shelf.",
+        "verified": true,
+        "helpfulCount": 18
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-cc-02",
+    "name": "Retro Coca-Cola Enamel Wall Art Sign Plaque",
+    "slug": "retro-coca-cola-enamel-wall-art-sign-plaque",
+    "tagline": "Distressed vintage tin sign with nostalgic red & cream typography",
+    "price": 349,
+    "originalPrice": 450,
+    "discountPercentage": 22,
+    "rating": 4.7,
+    "reviewCount": 65,
+    "category": "coca-cola-collectibles",
+    "categoryName": "Coca-Cola Collectibles",
+    "collections": [
+      "under-499",
+      "for-him",
+      "room-decor"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1543083477-4f785aeafaa9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Add vintage warmth to bedroom walls, study corners, and coffee nooks. Stamped on durable tinplate with folded edges and simulated rust patina for authentic mid-century charm.",
+    "details": {
+      "material": "Tinplate metal with baked enamel print",
+      "dimensions": "30cm x 20cm, 4 pre-drilled corner hanging holes",
+      "care": "Wipe with dry dusting cloth.",
+      "packaging": "Rigid cardboard flat sleeve with bubble protection",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "High-definition fade-resistant vintage enamel print",
+      "Pre-drilled holes for effortless nail or adhesive mounting",
+      "Rolled hemmed edges for safety",
+      "Instant character for aesthetic bedrooms & cafes"
+    ],
+    "isBestseller": false,
+    "isTrending": false,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 24,
+    "sku": "ELR-COL-002",
+    "isPublished": true,
+    "isFeatured": false
+  },
+  {
+    "id": "elara-cc-03",
+    "name": "Vintage Soda Bottle Opener & Cast Iron Key Hook",
+    "slug": "vintage-soda-bottle-opener-cast-iron-key-hook",
+    "tagline": "Wall-mounted rustic brass and cast iron opener with nostalgic stamp",
+    "price": 249,
+    "originalPrice": 320,
+    "discountPercentage": 22,
+    "rating": 4.8,
+    "reviewCount": 52,
+    "category": "coca-cola-collectibles",
+    "categoryName": "Coca-Cola Collectibles",
+    "collections": [
+      "under-299",
+      "for-him",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Crafted from solid cast iron with an antique bronze finish. Stamped with classic retro tavern lettering. Mounts effortlessly to walls, kitchen panels, or bar carts.",
+    "details": {
+      "material": "Solid cast iron, antique brass coating",
+      "dimensions": "8cm x 6.5cm x 3cm",
+      "packaging": "Rustic craft gift box with black mounting screws included",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Heavy solid cast iron construction that never bends",
+      "Opens capped glass bottles with one single flick",
+      "Includes 2 matching antique screws and wall anchors"
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 30,
+    "sku": "ELR-COL-003",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-hc-01",
+    "name": "Aesthetic Bubble Cube Sculptural Soy Candle",
+    "slug": "aesthetic-bubble-cube-sculptural-soy-candle",
+    "tagline": "Minimalist geometric soy candle infused with French vanilla",
+    "price": 249,
+    "originalPrice": 349,
+    "discountPercentage": 28,
+    "rating": 4.9,
+    "reviewCount": 198,
+    "category": "handmade-crafts",
+    "categoryName": "Handmade Crafts",
+    "collections": [
+      "under-299",
+      "room-decor",
+      "for-her",
+      "handmade",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Poured by hand in our studio using 100% natural soy wax and lead-free cotton wicks. The iconic bubble cube silhouette acts as an instant aesthetic centerpiece on coffee tables, bookshelves, and dresser trays.",
+    "details": {
+      "material": "100% Pure Soy Wax, Organic Cotton Wick, Premium Essential Oils",
+      "dimensions": "6cm x 6cm x 6cm (approx 150g)",
+      "care": "Place on a heat-resistant tray before lighting. Trim wick to 5mm before every burn.",
+      "packaging": "Tied with a delicate silk ribbon in an open-window craft box",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Clean, soot-free burn for up to 20 hours",
+      "Scented with gentle Madagascar Vanilla & Sea Salt",
+      "Biodegradable vegan soy wax without petroleum paraffin",
+      "The #1 aesthetic desk styling piece on Instagram"
+    ],
+    "variations": [
+      {
+        "name": "Color / Scent",
+        "options": [
+          "Ivory / Vanilla Bean",
+          "Blush / Rose Petals",
+          "Sage / White Tea"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 45,
+    "sku": "ELR-CRF-001",
+    "reviews": [
+      {
+        "id": "rev-06",
+        "author": "Tara D.",
+        "rating": 5,
+        "date": "2026-10-18",
+        "title": "Too pretty to burn!",
+        "comment": "I bought two—one for lighting and one strictly for decoration on my nightstand. The scent fills the whole room even when unlit.",
+        "verified": true,
+        "helpfulCount": 39
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-hc-02",
+    "name": "Marbled Terrazzo Ceramic Jewelry Trinket Dish",
+    "slug": "marbled-terrazzo-ceramic-jewelry-trinket-dish",
+    "tagline": "Hand-cast eco-resin dish with rosewater & champagne flakes",
+    "price": 349,
+    "originalPrice": 449,
+    "discountPercentage": 22,
+    "rating": 4.8,
+    "reviewCount": 84,
+    "category": "handmade-crafts",
+    "categoryName": "Handmade Crafts",
+    "collections": [
+      "under-499",
+      "for-her",
+      "handmade",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Hand-poured using Jesmonite eco-composite resin and hand-sanded to a velvety smooth matte finish. Beautifully cradles your daily rings, dainty bracelets, and keys.",
+    "details": {
+      "material": "Jesmonite mineral composite, sealed with food-safe water-repellent wax",
+      "dimensions": "Oval: 18cm x 9.5cm x 1.5cm",
+      "care": "Wipe clean with a damp cloth. Not microwave or dishwasher safe.",
+      "packaging": "Bubble wrapped in our signature tissue with gold seal",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Each dish has unique one-of-a-kind terrazzo flecks",
+      "Water and splash resistant protective sealant",
+      "Cork footpads on the bottom prevent furniture scratching"
+    ],
+    "variations": [
+      {
+        "name": "Shape",
+        "options": [
+          "Oval Tray",
+          "Scalloped Round",
+          "Curved Arch"
+        ]
+      },
+      {
+        "name": "Colorway",
+        "options": [
+          "Rosewater & Gold",
+          "Sand & Cream",
+          "Eucalyptus Green"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 19,
+    "sku": "ELR-CRF-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-hc-03",
+    "name": "Artisanal Botanical Wax Sachet Wardrobe Freshener",
+    "slug": "artisanal-botanical-wax-sachet-wardrobe-freshener",
+    "tagline": "Infused with essential oils, dried rosebuds & golden flakes",
+    "price": 199,
+    "originalPrice": 280,
+    "discountPercentage": 29,
+    "rating": 4.9,
+    "reviewCount": 112,
+    "category": "handmade-crafts",
+    "categoryName": "Handmade Crafts",
+    "collections": [
+      "under-299",
+      "just-because",
+      "handmade",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Hang in wardrobes, linen closets, or by your dressing mirror to infuse spaces with the soothing fragrance of English garden roses and sweet orange blossom. Lasts 6-9 months.",
+    "details": {
+      "material": "Soy wax, beeswax, dried organic petals, satin hanging ribbon",
+      "dimensions": "9cm x 5cm x 1cm",
+      "packaging": "Delicate organza gift bag with instructions",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Natural fragrance release without burning",
+      "Adorned with real dried rosebuds & gold leaf",
+      "Satin hanging ribbon included"
+    ],
+    "isBestseller": true,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 50,
+    "sku": "ELR-CRF-003",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-pg-01",
+    "name": "Custom Calligraphy Monogram Vintage Locket Necklace",
+    "slug": "custom-calligraphy-monogram-vintage-locket-necklace",
+    "tagline": "Engraved with your chosen initial & holds two keepsake miniature photos",
+    "price": 649,
+    "originalPrice": 850,
+    "discountPercentage": 24,
+    "rating": 5,
+    "reviewCount": 147,
+    "category": "personalized-gifts",
+    "categoryName": "Personalized Gifts",
+    "collections": [
+      "under-999",
+      "for-her",
+      "birthday",
+      "handmade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "An heirloom keepsake that preserves emotional memories. Features hand-engraved vintage flourish calligraphy of your requested letter. Opens to reveal two interior photo frames.",
+    "details": {
+      "material": "18k Gold Vermeil over stainless steel (tarnish resistant)",
+      "dimensions": "Locket: 2cm x 1.6cm, Chain: 45cm + 5cm extension",
+      "care": "Water resistant, shower friendly.",
+      "packaging": "Velvet-lined gift box with wax-sealed personalization certificate",
+      "handmade": true,
+      "dispatchTime": "Custom crafted in 48 hours"
+    },
+    "features": [
+      "Free custom initial engraving included",
+      "Opens to hold 2 miniature photos of loved ones",
+      "Anti-tarnish, water-safe lifetime coating",
+      "High-grade hypoallergenic stainless steel base"
+    ],
+    "variations": [
+      {
+        "name": "Initial",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "K",
+          "M",
+          "N",
+          "P",
+          "R",
+          "S",
+          "T",
+          "V"
+        ]
+      },
+      {
+        "name": "Finish",
+        "options": [
+          "Vintage Gold",
+          "Rose Gold",
+          "Silver"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 15,
+    "sku": "ELR-PER-001",
+    "reviews": [
+      {
+        "id": "rev-07",
+        "author": "Divya S.",
+        "rating": 5,
+        "date": "2026-10-11",
+        "title": "Ordered with my mother’s initial",
+        "comment": "She cried happy tears when she opened it. The engraving is remarkably sharp and delicate.",
+        "verified": true,
+        "helpfulCount": 52
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-pg-02",
+    "name": "Personalized Brass Bookmark with Silk Tassel",
+    "slug": "personalized-brass-bookmark-with-silk-tassel",
+    "tagline": "Custom stamped with name or inspirational quote for bookworms",
+    "price": 299,
+    "originalPrice": 399,
+    "discountPercentage": 25,
+    "rating": 4.9,
+    "reviewCount": 93,
+    "category": "personalized-gifts",
+    "categoryName": "Personalized Gifts",
+    "collections": [
+      "under-299",
+      "for-him",
+      "for-her",
+      "just-because",
+      "handmade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Hand-stamped letter by letter onto brushed solid raw brass with a lush handmade silk thread tassel. The ultimate thoughtful companion for quiet reading hours.",
+    "details": {
+      "material": "Solid brushed brass, 100% silk embroidery floss tassel",
+      "dimensions": "14cm x 2cm x 0.8mm",
+      "packaging": "Presented in a book-style sleeve with gold foil lettering",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Personalized with up to 20 custom letters/numbers",
+      "Won’t damage or crease book pages",
+      "Naturally patinas with time into an heirloom treasure"
+    ],
+    "variations": [
+      {
+        "name": "Tassel Color",
+        "options": [
+          "Champagne Cream",
+          "Blush Rose",
+          "Emerald Green",
+          "Wine Red"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 28,
+    "sku": "ELR-PER-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-pg-03",
+    "name": "Custom Constellation Star Map Acrylic Plaque",
+    "slug": "custom-constellation-star-map-acrylic-plaque",
+    "tagline": "The exact night sky from your most cherished date & location",
+    "price": 699,
+    "originalPrice": 899,
+    "discountPercentage": 22,
+    "rating": 4.8,
+    "reviewCount": 75,
+    "category": "personalized-gifts",
+    "categoryName": "Personalized Gifts",
+    "collections": [
+      "under-999",
+      "birthday",
+      "for-him",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Celebrate the night your paths crossed, an anniversary, or a birthday. Rendered with astronomically accurate star charts, custom names, coordinate details, and personal caption onto optical acrylic.",
+    "details": {
+      "material": "Crystal-clear acrylic glass, solid beechwood stand",
+      "dimensions": "A5 Size (21cm x 15cm x 3mm)",
+      "packaging": "Velvet foam protective gift box",
+      "handmade": true,
+      "dispatchTime": "Custom crafted in 48 hours"
+    },
+    "features": [
+      "Astronomically verified stellar positioning",
+      "UV printed with scratch-resistant white ceramic ink",
+      "Includes minimalist natural beechwood tabletop stand"
+    ],
+    "isBestseller": true,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 14,
+    "sku": "ELR-PER-003",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-ac-01",
+    "name": "Pure Mulberry Silk Hair Scrunchie & Ribbon Set",
+    "slug": "pure-mulberry-silk-hair-scrunchie-ribbon-set",
+    "tagline": "Zero friction hair care crafted from 100% 22-Momme silk",
+    "price": 349,
+    "originalPrice": 499,
+    "discountPercentage": 30,
+    "rating": 4.9,
+    "reviewCount": 180,
+    "category": "accessories",
+    "categoryName": "Accessories",
+    "collections": [
+      "under-499",
+      "for-her",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Designed to protect delicate hair strands against breakage, creasing, and frizz. Includes 1 oversized fluffy silk cloud scrunchie and 1 detachable matching hair tie bow.",
+    "details": {
+      "material": "100% Grade 6A Pure Mulberry Silk (22 Momme)",
+      "dimensions": "Diameter: 12cm, Bow ribbon: 22cm",
+      "care": "Hand wash with gentle silk shampoo, dry flat in shade.",
+      "packaging": "Pastel cylinder gift tube with rose-gold foil",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Dramatically prevents hair breakage & morning kinks",
+      "Ultra-durable elastic core that never stretches out",
+      "Glides effortlessly without tugging or headaches"
+    ],
+    "variations": [
+      {
+        "name": "Color",
+        "options": [
+          "Rosewater Pink",
+          "Champagne Gold",
+          "Cloud Ivory",
+          "Midnight Noir"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 35,
+    "sku": "ELR-ACC-001",
+    "reviews": [
+      {
+        "id": "rev-08",
+        "author": "Sanya T.",
+        "rating": 5,
+        "date": "2026-10-15",
+        "title": "Goodbye hair creasing!",
+        "comment": "I sleep in this every night. Holds my thick hair securely without pulling on my scalp.",
+        "verified": true,
+        "helpfulCount": 29
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-ac-02",
+    "name": "French Acetate Pastel Marble Hair Claw Clip",
+    "slug": "french-acetate-pastel-marble-hair-claw-clip",
+    "tagline": "Heavy-duty eco-cellulose claw clip with luminous pearlescent sheen",
+    "price": 249,
+    "originalPrice": 320,
+    "discountPercentage": 22,
+    "rating": 4.8,
+    "reviewCount": 91,
+    "category": "accessories",
+    "categoryName": "Accessories",
+    "collections": [
+      "under-299",
+      "for-her",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Crafted from plant-derived Italian cellulose acetate rather than cheap plastic. Features smooth interlocking rounded teeth that hold thick updos firmly in place all day long.",
+    "details": {
+      "material": "Eco-friendly biodegradable cellulose acetate, stainless steel spring",
+      "dimensions": "Length: 10.5cm, Height: 4.8cm",
+      "packaging": "Cotton canvas drawstring pouch",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Gentle on scalp, zero sharp edges",
+      "Strong tempered steel spring that holds all hair types",
+      "Lustrous, eternal marble patterns that never chip"
+    ],
+    "variations": [
+      {
+        "name": "Pattern",
+        "options": [
+          "Opal Rose Marble",
+          "Tortoiseshell Cream",
+          "Smoky Quartz"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 40,
+    "sku": "ELR-ACC-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-ac-03",
+    "name": "Aesthetic Woven Canvas Tote with Floral Embroidery",
+    "slug": "aesthetic-woven-canvas-tote-floral-embroidery",
+    "tagline": "Heavyweight organic cotton tote with zipper pocket & bottle loop",
+    "price": 499,
+    "originalPrice": 699,
+    "discountPercentage": 28,
+    "rating": 4.8,
+    "reviewCount": 64,
+    "category": "accessories",
+    "categoryName": "Accessories",
+    "collections": [
+      "under-499",
+      "for-her",
+      "handmade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The everyday companion for weekend bookshops, farmers markets, and work laptops. Features hand-embroidered wild chamomile florals on durable 16oz cotton canvas with an internal zip pocket.",
+    "details": {
+      "material": "16oz 100% Unbleached Organic Cotton Canvas",
+      "dimensions": "38cm x 36cm x 10cm base gusset, Handle drop: 28cm",
+      "care": "Spot clean or gentle cold machine wash.",
+      "packaging": "Neatly folded with Elara grosgrain ribbon",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Reinforced shoulder straps tested to carry up to 10kg",
+      "Internal zipper pocket for phone, keys, and lip balm",
+      "Interior elastic loop keeps water bottles upright"
+    ],
+    "isBestseller": false,
+    "isTrending": false,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 25,
+    "sku": "ELR-ACC-003",
+    "isPublished": true,
+    "isFeatured": false
+  },
+  {
+    "id": "elara-rd-01",
+    "name": "Crystal Prism Rainbow Sun-Catcher Mobile",
+    "slug": "crystal-prism-rainbow-sun-catcher-mobile",
+    "tagline": "Fills your bedroom with dancing rainbows whenever sunlight strikes",
+    "price": 449,
+    "originalPrice": 599,
+    "discountPercentage": 25,
+    "rating": 4.9,
+    "reviewCount": 173,
+    "category": "room-decor",
+    "categoryName": "Room Decor",
+    "collections": [
+      "under-499",
+      "room-decor",
+      "for-her",
+      "just-because",
+      "handmade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Handcrafted with K9 faceted optical crystals and hammered brass celestial rings. Hang it near a sunny window to project hundreds of mesmerizing rainbow prisms dancing across your ceiling and walls.",
+    "details": {
+      "material": "K9 Optical Glass Crystal, Brass celestial charms, nylon coated wire",
+      "dimensions": "Total hanging length: 42cm, Main crystal ball: 30mm",
+      "care": "Wipe crystal with glass cleaning cloth occasionally.",
+      "packaging": "Foam-lined rigid gift box with suction cup hook included",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "High-refractive index optical crystal prisms",
+      "Projects vivid room-filling rainbow sparkles",
+      "Comes with brass hanging hook and window suction cup"
+    ],
+    "variations": [
+      {
+        "name": "Motif",
+        "options": [
+          "Celestial Moon & Stars",
+          "Sacred Lotus",
+          "Geometric Droplet"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 22,
+    "sku": "ELR-DEC-001",
+    "reviews": [
+      {
+        "id": "rev-09",
+        "author": "Kavya L.",
+        "rating": 5,
+        "date": "2026-10-05",
+        "title": "Pure magic every afternoon",
+        "comment": "Around 3 PM the sun hits my bedroom window and the entire room turns into a kaleidoscope. Best gift ever.",
+        "verified": true,
+        "helpfulCount": 38
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-rd-02",
+    "name": "Warm Amber Dewdrop Fairy Lights with Wooden Spool",
+    "slug": "warm-amber-dewdrop-fairy-lights-with-wooden-spool",
+    "tagline": "10 meters of warm cozy micro-LEDs on flexible copper wire",
+    "price": 299,
+    "originalPrice": 399,
+    "discountPercentage": 25,
+    "rating": 4.8,
+    "reviewCount": 145,
+    "category": "room-decor",
+    "categoryName": "Room Decor",
+    "collections": [
+      "under-299",
+      "room-decor",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Transform any corner into a cozy sanctuary. 100 warm amber micro LEDs embedded on ultra-thin champagne copper wire, wound around an aesthetic vintage-style beechwood spool. USB powered with 8 lighting modes.",
+    "details": {
+      "material": "Enamelled copper wire, wood spool, USB connection",
+      "dimensions": "Length: 10 meters (100 LEDs)",
+      "packaging": "Craft paper presentation box with USB cable",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "USB powered—works with laptop, powerbank or wall adapter",
+      "8 twinkle and glow modes with remote control included",
+      "Bendable wire holds shapes around mirrors, headboards, and frames"
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 35,
+    "sku": "ELR-DEC-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-rd-03",
+    "name": "Nordic Ceramic Ribbed Flower Vase - Sandstone Cream",
+    "slug": "nordic-ceramic-ribbed-flower-vase-sandstone-cream",
+    "tagline": "Minimalist matte stoneware vase with sculptural fluted silhouette",
+    "price": 549,
+    "originalPrice": 750,
+    "discountPercentage": 27,
+    "rating": 4.9,
+    "reviewCount": 82,
+    "category": "room-decor",
+    "categoryName": "Room Decor",
+    "collections": [
+      "under-999",
+      "room-decor",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Hand-thrown stoneware ceramic with a fine sand-textured matte exterior and glazed waterproof interior. The perfect height for dried botanicals, fresh blossoms, or displaying as an architectural sculpture.",
+    "details": {
+      "material": "High-fire ceramic stoneware",
+      "dimensions": "Height: 20cm, Base: 9cm, Neck opening: 5cm",
+      "care": "Hand wash with warm water.",
+      "packaging": "Heavy double-box foam molded packaging",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Glazed interior holds fresh water without seepage",
+      "Anti-slip protective padded base",
+      "Pairs perfectly with our eternal floral bouquets"
+    ],
+    "variations": [
+      {
+        "name": "Color",
+        "options": [
+          "Sandstone Cream",
+          "Terracotta Blush",
+          "Chalk White"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": false,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 16,
+    "sku": "ELR-DEC-003",
+    "isPublished": true,
+    "isFeatured": false
+  },
+  {
+    "id": "elara-st-01",
+    "name": "Vintage Brass Wax Seal Stamp Kit with Rosewood Handle",
+    "slug": "vintage-brass-wax-seal-stamp-kit-with-rosewood-handle",
+    "tagline": "Complete letter sealing set with octagonal wax beads & melting spoon",
+    "price": 499,
+    "originalPrice": 699,
+    "discountPercentage": 28,
+    "rating": 4.9,
+    "reviewCount": 136,
+    "category": "stationery",
+    "categoryName": "Stationery",
+    "collections": [
+      "under-499",
+      "stationery",
+      "handmade",
+      "for-her",
+      "for-him"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Imbue your letters, gift wraps, and invitations with old-world romance. Includes 1 Solid Brass Stamp Head, 1 Natural Rosewood Handle, 1 Brass Melting Spoon, 2 Tea Light Candles, and 1 Jar of 60 Champagne & Blush Wax Beads.",
+    "details": {
+      "material": "Heavy machined solid brass, natural solid rosewood, flexible sealing wax",
+      "dimensions": "Stamp diameter: 25mm, Length: 90mm",
+      "packaging": "Vintage book-style collector box with magnetic closure",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Removable screw-thread brass head fits all standard handles",
+      "Wax formula is flexible and survives postal mailing without cracking",
+      "Includes 60 two-tone wax melting beads"
+    ],
+    "variations": [
+      {
+        "name": "Stamp Motif",
+        "options": [
+          "Botanical Wildflower",
+          "Celestial Moon",
+          "Tree of Life",
+          "Fleur de Lis"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 20,
+    "sku": "ELR-STN-001",
+    "reviews": [
+      {
+        "id": "rev-10",
+        "author": "Tanvi G.",
+        "rating": 5,
+        "date": "2026-10-12",
+        "title": "Brought back my love for letter writing",
+        "comment": "So satisfying to melt the wax beads and stamp them down. The detail on the botanical engraving is crisp and beautiful.",
+        "verified": true,
+        "helpfulCount": 22
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-st-02",
+    "name": "Artisanal Deckle-Edge Cotton Paper Journal",
+    "slug": "artisanal-deckle-edge-cotton-paper-journal",
+    "tagline": "120 pages of handmade recycled cotton paper bound in vegan leather",
+    "price": 449,
+    "originalPrice": 599,
+    "discountPercentage": 25,
+    "rating": 4.8,
+    "reviewCount": 92,
+    "category": "stationery",
+    "categoryName": "Stationery",
+    "collections": [
+      "under-499",
+      "stationery",
+      "handmade",
+      "for-him",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Each page is made by hand from recycled cotton rags, creating organic deckled feathery edges. Thick 150 GSM bleed-proof paper accommodates fountain pens, watercolors, gouache, and pressed florals.",
+    "details": {
+      "material": "100% Recycled Cotton Paper (150 GSM), Vegan leather wrap with wraparound tie",
+      "dimensions": "A5 Size: 21cm x 15cm x 2.5cm (120 unlined pages)",
+      "packaging": "Handmade cotton pouch with dried flower sprig",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Bleed-proof paper safe for fountain pens & light watercolors",
+      "Tree-free eco paper made from textile remnants",
+      "Organic raw deckle edges on every page"
+    ],
+    "variations": [
+      {
+        "name": "Cover Hue",
+        "options": [
+          "Cognac Tan",
+          "Rose Dust",
+          "Sage Green"
+        ]
+      }
+    ],
+    "isBestseller": false,
+    "isTrending": false,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 18,
+    "sku": "ELR-STN-002",
+    "isPublished": true,
+    "isFeatured": false
+  },
+  {
+    "id": "elara-st-03",
+    "name": "Gold Foil Botanical Greeting Card Pack of 6",
+    "slug": "gold-foil-botanical-greeting-card-pack-of-6",
+    "tagline": "Luxe textured cardstock with embossed gold lettering & kraft envelopes",
+    "price": 249,
+    "originalPrice": 320,
+    "discountPercentage": 22,
+    "rating": 4.9,
+    "reviewCount": 81,
+    "category": "stationery",
+    "categoryName": "Stationery",
+    "collections": [
+      "under-299",
+      "stationery",
+      "just-because",
+      "birthday"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Never be caught without the right card. Includes 6 distinct designs: Birthday, Thank You, Thinking of You, Warm Wishes, Love, and Blank Florals. Blank inside for your heartfelt messages.",
+    "details": {
+      "material": "350 GSM Textured Italian Art Board, Real Gold Foil, Recycled Kraft Envelopes",
+      "dimensions": "Card: 15cm x 10.5cm (A6 folded)",
+      "packaging": "Set of 6 cards + 6 envelopes in a clear keepsake wallet",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Luxurious heavyweight paper with tactile grain",
+      "Shimmering hot-stamped gold foil details",
+      "Includes 6 gold foil envelope sealing stickers"
+    ],
+    "isBestseller": true,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 40,
+    "sku": "ELR-STN-003",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-sb-01",
+    "name": "The Mystery Aesthetic Treasure Vault Box",
+    "slug": "the-mystery-aesthetic-treasure-vault-box",
+    "tagline": "Guaranteed 5 to 6 full-sized boutique treasures worth ₹1500+",
+    "price": 799,
+    "originalPrice": 1199,
+    "discountPercentage": 33,
+    "rating": 5,
+    "reviewCount": 228,
+    "category": "surprise-boxes",
+    "categoryName": "Surprise Boxes",
+    "collections": [
+      "under-999",
+      "birthday",
+      "just-because",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The excitement of unboxing pure mystery! Each Surprise Box is individually curated by our creative director with 5-6 full-sized aesthetic lifestyle products: including artisan jewelry, candles, room decor, stationery, and sweet treats. Packed under crinkled blush paper with a wax seal.",
+    "details": {
+      "material": "Curated mix of ceramic, silk, soy wax, brass, and botanicals",
+      "dimensions": "Large Mystery Crate: 26cm x 20cm x 12cm",
+      "packaging": "Gold-embossed mystery box with confidential seal",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Total item value guaranteed over ₹1500",
+      "Every box has a slightly unique personalized surprise curation",
+      "Includes secret bonus vintage collectible card"
+    ],
+    "variations": [
+      {
+        "name": "Curation Vibe",
+        "options": [
+          "Cottagecore & Florals",
+          "Minimalist & Golden",
+          "Cozy Coffee & Books"
+        ]
+      }
+    ],
+    "isBestseller": true,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 10,
+    "sku": "ELR-SBX-001",
+    "reviews": [
+      {
+        "id": "rev-11",
+        "author": "Ritika B.",
+        "rating": 5,
+        "date": "2026-10-19",
+        "title": "The best thing I bought this year!",
+        "comment": "I got a gorgeous pearl choker, a bubble candle, wax seals, and a tote bag! So generous and beautifully wrapped.",
+        "verified": true,
+        "helpfulCount": 64
+      }
+    ],
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-sb-02",
+    "name": "Petite Birthday Surprise Countdown Bento Box",
+    "slug": "petite-birthday-surprise-countdown-bento-box",
+    "tagline": "Numbered mini surprise parcels to open on their special day",
+    "price": 499,
+    "originalPrice": 650,
+    "discountPercentage": 23,
+    "rating": 4.9,
+    "reviewCount": 95,
+    "category": "surprise-boxes",
+    "categoryName": "Surprise Boxes",
+    "collections": [
+      "under-499",
+      "birthday",
+      "for-her",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "An interactive gifting experience. The bento box holds 4 individually wrapped mystery gift pouches labeled \"Open at Breakfast\", \"Open at Lunch\", \"Open at Sunset\", and \"Make a Wish\".",
+    "details": {
+      "material": "Recycled sugarcane bento container, Korean glassine paper wrapping, satin ribbon",
+      "dimensions": "16cm x 16cm x 8cm",
+      "packaging": "Tied with gingham ribbon and includes birthday celebration candles",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Interactive 4-step countdown experience",
+      "Includes sparkling mini cake candle",
+      "Pre-written heartwarming birthday sentiment cards"
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 22,
+    "sku": "ELR-SBX-002",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-hb-04",
+    "name": "Gilded Clover Mother-of-Pearl Cord Bracelet",
+    "slug": "gilded-clover-mother-of-pearl-cord-bracelet",
+    "tagline": "Iridescent four-leaf clover charm with delicate champagne cord",
+    "price": 299,
+    "originalPrice": 399,
+    "discountPercentage": 25,
+    "rating": 4.8,
+    "reviewCount": 67,
+    "category": "handmade-bracelets",
+    "categoryName": "Handmade Bracelets",
+    "collections": [
+      "under-299",
+      "for-her",
+      "just-because",
+      "handmade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Carved natural mother of pearl shell clover framed in 14k gold-plated brass on a braided champagne cord. Symbolizes good fortune, love, and serene joy.",
+    "details": {
+      "material": "Natural Mother of Pearl, 14k Gold Plating, Braided Cord",
+      "dimensions": "Adjustable slider fits 14cm - 22cm",
+      "packaging": "Foil printed presentation card",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Natural iridescent shell",
+      "Water safe durable cord",
+      "Adjustable slide knot"
+    ],
+    "isBestseller": false,
+    "isTrending": false,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 28,
+    "sku": "ELR-BRC-004",
+    "isPublished": true,
+    "isFeatured": false
+  },
+  {
+    "id": "elara-bq-04",
+    "name": "Sunlit Meadow Preserved Daisy & Wheat Straw Bunch",
+    "slug": "sunlit-meadow-preserved-daisy-wheat-straw-bunch",
+    "tagline": "Warm golden wheat stems, dried daisies, and fluffy bunny tails",
+    "price": 399,
+    "originalPrice": 499,
+    "discountPercentage": 20,
+    "rating": 4.7,
+    "reviewCount": 54,
+    "category": "aesthetic-bouquets",
+    "categoryName": "Aesthetic Bouquets",
+    "collections": [
+      "under-499",
+      "just-because",
+      "room-decor"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Rustic countryside elegance brought indoors. A cheerful medley of preserved golden wheat stalks, dried paper daisies, and soft white lagurus bunny tails.",
+    "details": {
+      "material": "100% naturally dried botanicals",
+      "dimensions": "Height: 32cm",
+      "packaging": "Wrapped in craft paper with twine bow",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Long lasting natural dried arrangement",
+      "Neutral golden tones complement any room",
+      "Zero water or care needed"
+    ],
+    "isBestseller": false,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 19,
+    "sku": "ELR-BQT-004",
+    "isPublished": true,
+    "isFeatured": false
+  },
+  {
+    "id": "elara-hc-04",
+    "name": "Arch Archway Ribbed Pillar Candle Duo",
+    "slug": "arch-archway-ribbed-pillar-candle-duo",
+    "tagline": "Set of two sculptural ribbed rainbow arches in cream & blush",
+    "price": 399,
+    "originalPrice": 499,
+    "discountPercentage": 20,
+    "rating": 4.9,
+    "reviewCount": 71,
+    "category": "handmade-crafts",
+    "categoryName": "Handmade Crafts",
+    "collections": [
+      "under-499",
+      "room-decor",
+      "for-her",
+      "handmade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Sculpted in architectural roman arch profiles with fine fluted ribbing. Hand-poured with non-drip soy wax and infused with gentle sandalwood notes.",
+    "details": {
+      "material": "Soy Wax, Cotton Wick",
+      "dimensions": "Large: 11.5cm x 6cm, Medium: 9cm x 5cm",
+      "packaging": "Cushioned craft gift box",
+      "handmade": true,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Set of 2 nesting arches",
+      "Scented with Australian Sandalwood",
+      "Modern architectural home accent"
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 18,
+    "sku": "ELR-CRF-004",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-rd-04",
+    "name": "Vintage Scalloped Brass Tabletop Vanity Mirror",
+    "slug": "vintage-scalloped-brass-tabletop-vanity-mirror",
+    "tagline": "Heirloom swivel mirror with ornate floral antique brass rim",
+    "price": 899,
+    "originalPrice": 1199,
+    "discountPercentage": 25,
+    "rating": 4.9,
+    "reviewCount": 104,
+    "category": "room-decor",
+    "categoryName": "Room Decor",
+    "collections": [
+      "under-999",
+      "room-decor",
+      "for-her"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "360-degree rotating double-sided mirror (1x regular, 3x magnifying) set in a heavy antiqued brass frame with scalloped lace-like floral edging. Elevates your daily skincare routine into a royal ritual.",
+    "details": {
+      "material": "Solid Brass alloy with antique patina, HD distortion-free glass",
+      "dimensions": "Height: 28cm, Mirror diameter: 16cm",
+      "packaging": "Molded foam protection in premium gift carton",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Dual-sided 1x and 3x magnification",
+      "360 degree smooth swivel tilt",
+      "Heavy non-topple brass base"
+    ],
+    "isBestseller": true,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 11,
+    "sku": "ELR-DEC-004",
+    "isPublished": true,
+    "isFeatured": true
+  },
+  {
+    "id": "elara-st-04",
+    "name": "Vintage Pressed Botanical Washi Tape Set of 5",
+    "slug": "vintage-pressed-botanical-washi-tape-set-of-5",
+    "tagline": "Washi rolls featuring ferns, wildflowers, butterflies, and gold foil",
+    "price": 249,
+    "originalPrice": 320,
+    "discountPercentage": 22,
+    "rating": 4.8,
+    "reviewCount": 68,
+    "category": "stationery",
+    "categoryName": "Stationery",
+    "collections": [
+      "under-299",
+      "stationery",
+      "just-because"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Japanese washi paper tapes adorned with delicate vintage Victorian herbarium illustrations and shimmering gold foil details. Perfect for bullet journals, gift wrapping, and scrapbooking.",
+    "details": {
+      "material": "Natural Japanese Washi Paper, non-toxic adhesive",
+      "dimensions": "5 rolls x 5 meters each (assorted widths: 15mm, 20mm, 30mm)",
+      "packaging": "Collector display carton",
+      "handmade": false,
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Leaves zero sticky residue",
+      "Can be torn cleanly by hand",
+      "Hot stamped metallic foil detailing"
+    ],
+    "isBestseller": false,
+    "isTrending": false,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 32,
+    "sku": "ELR-STN-004",
+    "isPublished": true,
+    "isFeatured": false
+  },
+  {
+    "id": "elara-cc-04",
+    "name": "Diet Coke Can Gun – Handcrafted Collectible Display Model",
+    "slug": "vintage-coca-cola-delivery-truck-miniature-model",
+    "tagline": "A bold, handcrafted statement piece made from recycled Diet Coke cans.",
+    "price": 1000,
+    "originalPrice": 1450,
+    "discountPercentage": 31,
+    "rating": 4.9,
+    "reviewCount": 61,
+    "category": "coca-cola-collectibles",
+    "categoryName": "Coca-Cola Collectibles",
+    "collections": [
+      "under-999",
+      "for-him"
+    ],
+    "images": [
+      "/uploads/elara_1794399788731_78648.png",
+      "/uploads/elara_1794400287765_41016.png"
+    ],
+    "description": "Make a statement with this unique Diet Coke Can Gun, a handcrafted collectible designed for soda enthusiasts and lovers of unconventional décor.\n\nCarefully assembled using authentic silver Diet Coke cans, this eye-catching creation transforms everyday beverage packaging into a striking decorative display piece. Its distinctive design, metallic finish and iconic Diet Coke branding make it a conversation starter and a memorable gift.\n\nPerfect for collectors, themed room décor, display shelves and gifting.",
+    "details": {
+      "handmade": false,
+      "material": " Recycled Diet Coke aluminium cans, adhesive and joining materials.",
+      "packaging": "Official style acrylic display case with descriptive plaque",
+      "dimensions": "Custom handcrafted dimensions. Please refer to product photographs for appearance.",
+      "dispatchTime": "Dispatched within 48hours"
+    },
+    "features": [
+      "Working steering & rubber tires",
+      "Includes 4 miniature soda bottle crates",
+      "Clear acrylic showcase included"
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": true,
+    "inStock": true,
+    "stockCount": 13,
+    "sku": "ELR-COL-004",
+    "isPublished": true,
+    "isFeatured": false,
+    "variations": [],
+    "reviews": []
+  },
+  {
+    "id": "elara-gh-04",
+    "name": "Gentleman’s Heritage Desk Keepsake Hamper",
+    "slug": "gentlemans-heritage-desk-keepsake-hamper",
+    "tagline": "Leather journal, brass pen, retro glasses & espresso dark roast",
+    "price": 999,
+    "originalPrice": 1299,
+    "discountPercentage": 23,
+    "rating": 4.9,
+    "reviewCount": 76,
+    "category": "gift-hampers",
+    "categoryName": "Gift Hampers",
+    "collections": [
+      "under-999",
+      "for-him",
+      "birthday"
+    ],
+    "images": [
+      "/uploads/elara_1794399484751_78334.png"
+    ],
+    "description": "The definitive gift for him. Includes 1 Leather Journal with Deckle Cotton Pages, 1 Heavy Solid Brass Rollerball Pen, 1 Retro Coca-Cola collectible tumbler, and 1 Pack of Artisanal Dark Roast Coffee Beans.",
+    "details": {
+      "handmade": true,
+      "material": "Full-grain leather, solid brass, glassware, specialty coffee",
+      "packaging": "Matte charcoal rigid gift box tied with champagne grosgrain ribbon",
+      "dimensions": "Gift box: 26cm x 20cm x 9cm",
+      "dispatchTime": "Dispatched within 24 hours"
+    },
+    "features": [
+      "Handcrafted luxury for modern gentleman",
+      "Includes refillable solid brass pen",
+      "Complimentary handwritten gift card"
+    ],
+    "isBestseller": false,
+    "isTrending": true,
+    "isNewArrival": false,
+    "inStock": true,
+    "stockCount": 14,
+    "sku": "ELR-HMP-004",
+    "isPublished": true,
+    "isFeatured": true,
+    "variations": [],
+    "reviews": []
+  }
+]

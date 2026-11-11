@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CATEGORIES } from '../../data/categories';
 import { ImageWithFallback } from '../common/ImageWithFallback';
 import { ArrowUpRight } from 'lucide-react';
+import { useStore } from '../../context/StoreContext';
 
 export const CategoryGrid: React.FC = () => {
+  const { categories } = useStore();
+
   return (
     <section className="py-16 sm:py-20 bg-elara-bg-light dark:bg-elara-bg-dark transition-colors">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,13 +24,13 @@ export const CategoryGrid: React.FC = () => {
             <span className="h-[0.5px] flex-1 bg-[#8A4A52] dark:bg-[#E4A9AE]" />
           </div>
           <p className="text-xs sm:text-sm text-elara-text-muted dark:text-elara-text-muted-dark mt-3">
-            Explore our ten dedicated gift worlds—each crafted to capture feelings and celebrate life's tender milestones.
+            Explore our dedicated gift worlds—each crafted to capture feelings and celebrate life's tender milestones.
           </p>
         </div>
 
-        {/* 10 Category Cards Grid */}
+        {/* Category Cards Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3.5 sm:gap-5">
-          {CATEGORIES.map((category) => (
+          {categories.map((category) => (
             <Link
               key={category.id}
               to={`/shop?category=${category.slug}`}
@@ -50,13 +52,13 @@ export const CategoryGrid: React.FC = () => {
                 </div>
               </div>
 
-              {/* Title & Item Count */}
+              {/* Title and details */}
               <div className="p-3 sm:p-4 text-center flex-1 flex flex-col justify-between">
-                <h3 className="font-serif text-xs sm:text-sm font-medium text-elara-text-dark dark:text-elara-text-light group-hover:text-[#8A4A52] dark:group-hover:text-elara-accent-dark transition-colors line-clamp-1">
+                <h3 className="font-serif text-sm sm:text-base font-medium text-elara-text-dark dark:text-elara-text-light group-hover:text-[#8A4A52] dark:group-hover:text-elara-accent-dark transition-colors truncate">
                   {category.name}
                 </h3>
-                <span className="text-[10px] text-elara-text-muted dark:text-elara-text-muted-dark uppercase tracking-wider mt-1 block">
-                  {category.itemCount}+ Gifts
+                <span className="text-[11px] text-elara-text-muted dark:text-elara-text-muted-dark mt-1 font-sans">
+                  Explore Gifts &rarr;
                 </span>
               </div>
             </Link>
@@ -66,4 +68,3 @@ export const CategoryGrid: React.FC = () => {
     </section>
   );
 };
-

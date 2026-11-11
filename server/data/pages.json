@@ -1,0 +1,118 @@
+{
+  "about": {
+    "slug": "about",
+    "title": "Our Story & Atelier",
+    "subtitle": "Artisanship, devotion, and the quiet poetry of thoughtful giving.",
+    "heroImage": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80",
+    "sections": [
+      {
+        "heading": "Born from Slow Living & Sincere Emotion",
+        "body": "Founded in 2024, ELARA & CO. began as a small dream table filled with dried hydrangeas, raw rose quartz, and spools of hand-torn chiffon ribbon. We felt modern gifting had become algorithmic, impersonal, and hurried. We set out to build an atelier where gifts feel deeply personal and memorable."
+      },
+      {
+        "heading": "Handcrafted with Intention",
+        "body": "Every bracelet is hand-knotted by woman artisans, every dried botanical stem is individually preserved, and every gift hamper is assembled with personalized wax-sealed notes. We honor slow craftsmanship over mass production."
+      },
+      {
+        "heading": "Our Sustainability Promise",
+        "body": "Our packaging is 100% biodegradable and recyclable. We use cruelty-free soy wax, recycled paper, and sustainable packaging materials to protect both your gift and our planet."
+      }
+    ],
+    "lastUpdated": "2026-11-11T03:25:43.704Z"
+  },
+  "contact": {
+    "slug": "contact",
+    "title": "Connect with Our Atelier",
+    "subtitle": "We're here to assist with custom hamper curation, corporate orders, and bespoke gift design.",
+    "sections": [
+      {
+        "heading": "Studio Concierge",
+        "body": "Have a bespoke custom gift request or need advice on choosing the perfect keepsake? Reach out to our dedicated gifting concierges."
+      }
+    ],
+    "extraData": {
+      "email": "concierge@elaraandco.com",
+      "phone": "+91 98765 43210",
+      "whatsapp": "+91 98765 43210",
+      "address": "ELARA & CO. Atelier, 402 Indiranagar, Bengaluru, Karnataka 560038",
+      "hours": "Monday – Saturday: 10:00 AM – 7:30 PM IST"
+    },
+    "lastUpdated": "2026-11-11T03:25:43.708Z"
+  },
+  "faq": {
+    "slug": "faq",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about ordering, delivery, customization, and care.",
+    "sections": [
+      {
+        "heading": "How long does delivery take across India?",
+        "body": "Standard delivery takes 3 to 5 business days across metros and tier-1 cities. Express delivery arrives within 24 to 48 hours. Custom engraved gifts require 1 additional day of studio crafting time."
+      },
+      {
+        "heading": "Can I include a personalized handwritten message?",
+        "body": "Yes! Every order includes a complimentary gold-foil card with your custom message hand-penned by our studio calligrapher. Simply enter your message during checkout."
+      },
+      {
+        "heading": "Are the floral bouquets real flowers?",
+        "body": "Our bouquets are created using genuine botanicals preserved using eco-friendly natural glycerine, or hand-crocheted cotton yarn blossoms that never wither. They maintain their beauty for years without water."
+      },
+      {
+        "heading": "What if a delicate item arrives damaged?",
+        "body": "We pack every order with triple-layer protective padding and luxury gift boxes. However, if transit damage occurs, simply message us on WhatsApp with photos within 48 hours for an instant complimentary replacement."
+      }
+    ],
+    "lastUpdated": "2026-11-11T03:25:43.708Z"
+  },
+  "shipping": {
+    "slug": "shipping",
+    "title": "Shipping & Delivery Policy",
+    "subtitle": "Carefully packaged, insured, and swiftly delivered to your doorstep.",
+    "sections": [
+      {
+        "heading": "Complimentary Shipping Over ₹999",
+        "body": "All orders valued at ₹999 or above receive free standard tracked shipping throughout India. Orders below ₹999 have a flat nominal shipping fee of ₹79."
+      },
+      {
+        "heading": "Dispatch Timeline",
+        "body": "Orders placed before 2:00 PM IST Monday through Saturday are dispatched the same evening from our Bengaluru studio. Tracking numbers are sent via SMS and email as soon as the courier scans your package."
+      }
+    ],
+    "lastUpdated": "2026-11-11T03:25:43.708Z"
+  },
+  "returns": {
+    "slug": "returns",
+    "title": "Return & Exchange Policy",
+    "subtitle": "Complete peace of mind with our 7-day hassle-free replacement promise.",
+    "sections": [
+      {
+        "heading": "7-Day Replacement Guarantee",
+        "body": "Because our products include handcrafted jewelry and personalized keepsakes, we offer 7-day replacements for any manufacturing defects or transit damages. Simply send photos to concierge@elaraandco.com."
+      }
+    ],
+    "lastUpdated": "2026-11-11T03:25:43.708Z"
+  },
+  "privacy": {
+    "slug": "privacy",
+    "title": "Privacy Policy",
+    "subtitle": "How we respect, safeguard, and secure your personal information.",
+    "sections": [
+      {
+        "heading": "Data Protection",
+        "body": "ELARA & CO. respects your privacy. We never sell, rent, or distribute your email, telephone number, or delivery address to third parties."
+      }
+    ],
+    "lastUpdated": "2026-11-11T03:25:43.708Z"
+  },
+  "terms": {
+    "slug": "terms",
+    "title": "Terms & Conditions",
+    "subtitle": "The terms governing your purchases and interactions with ELARA & CO.",
+    "sections": [
+      {
+        "heading": "Ordering & Acceptance",
+        "body": "By placing an order with ELARA & CO., you agree to purchase the items described subject to product availability and confirmation."
+      }
+    ],
+    "lastUpdated": "2026-11-11T03:25:43.708Z"
+  }
+}

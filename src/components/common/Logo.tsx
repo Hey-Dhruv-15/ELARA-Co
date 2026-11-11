@@ -31,19 +31,27 @@ export const Logo: React.FC<LogoProps> = ({
       className={`inline-flex items-center justify-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-elara-accent-light rounded ${className}`}
     >
       {variant === 'mark' ? (
-        // Just the watercolor tiger lily flower
+        // Blossom mark
         <img
           src="/logo-flower.png"
           alt="ELARA & CO. Blossom Mark"
           className={`${sizeClasses} ${imgClassName} w-auto object-contain transition-transform duration-300 group-hover:scale-105 group-hover:rotate-3 drop-shadow-xs`}
         />
       ) : (
-        // The official logo with transparent background
+        // Official logo with transparent background: Light & Dark editions
         <div className="relative inline-flex items-center justify-center py-1">
+          {/* Light Mode Logo (Rosewater Edition) */}
           <img
             src="/logo.png"
             alt="ELARA & CO. - The extraordinary, made personal."
-            className={`${sizeClasses} ${imgClassName} w-auto object-contain transition-all duration-300 group-hover:scale-102 dark:brightness-125 dark:contrast-110 drop-shadow-xs`}
+            className={`block dark:hidden ${sizeClasses} ${imgClassName} w-auto object-contain transition-all duration-300 group-hover:scale-102 drop-shadow-xs`}
+          />
+
+          {/* Dark Mode Logo (Luxury Gold Edition - Used ONLY in Dark Mode) */}
+          <img
+            src="/logo-dark.png"
+            alt="ELARA & CO. - The extraordinary, made personal. (Dark Edition)"
+            className={`hidden dark:block ${sizeClasses} ${imgClassName} w-auto object-contain transition-all duration-300 group-hover:scale-102 drop-shadow-xs`}
           />
         </div>
       )}

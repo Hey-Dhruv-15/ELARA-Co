@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { PRODUCTS } from '../data/products';
 import { Product, Review } from '../types';
+import { useStore } from '../context/StoreContext';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import { useToast } from '../context/ToastContext';
@@ -33,8 +33,9 @@ export const ProductDetailPage: React.FC = () => {
   const { addToCart } = useCart();
   const { isInWishlist, toggleWishlist } = useWishlist();
   const { showToast } = useToast();
+  const { getProductById, products } = useStore();
 
-  const product = PRODUCTS.find((p) => p.id === id);
+  const product = getProductById(id || '');
 
   // Gallery state
   const [activeImageIndex, setActiveImageIndex] = useState(0);
@@ -78,8 +79,8 @@ export const ProductDetailPage: React.FC = () => {
   const inWishlist = isInWishlist(product.id);
 
   // Related products from same category
-  const relatedProducts = PRODUCTS.filter(
-    (p) => p.category === product.category && p.id !== product.id
+  const relatedProducts = products.filter(
+    (p) => p.category === product.category && p.id !== product.id && p.isPublished !== false
   ).slice(0, 4);
 
   const handleVariationSelect = (name: string, value: string) => {

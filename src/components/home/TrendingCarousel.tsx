@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
-import { PRODUCTS } from '../../data/products';
 import { ProductCard } from '../common/ProductCard';
 import { Product } from '../../types';
 import { ChevronLeft, ChevronRight, TrendingUp } from 'lucide-react';
+import { useStore } from '../../context/StoreContext';
 
 interface TrendingCarouselProps {
   onQuickView?: (product: Product) => void;
@@ -10,8 +10,9 @@ interface TrendingCarouselProps {
 
 export const TrendingCarousel: React.FC<TrendingCarouselProps> = ({ onQuickView }) => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const { products } = useStore();
 
-  const trendingProducts = PRODUCTS.filter((p) => p.isTrending);
+  const trendingProducts = products.filter((p) => p.isTrending && p.isPublished !== false);
 
   const scroll = (direction: 'left' | 'right') => {
     if (scrollContainerRef.current) {
@@ -63,15 +64,18 @@ export const TrendingCarousel: React.FC<TrendingCarouselProps> = ({ onQuickView 
         {/* Horizontal Carousel */}
         <div
           ref={scrollContainerRef}
-          className="flex gap-4 sm:gap-6 overflow-x-auto pb-4 pt-1 snap-x scroll-smooth no-scrollbar"
-          style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          className="flex space-x-5 overflow-x-auto pb-4 scrollbar-none snap-x snap-mandatory"
         >
           {trendingProducts.map((product) => (
             <div
               key={product.id}
-              className="w-[260px] sm:w-[280px] shrink-0 snap-start"
+              className="w-[260px] sm:w-[280px] md:w-[300px] flex-shrink-0 snap-start"
             >
-              <ProductCard product={product} onQuickView={onQuickView} />
+              <ProductCard
+                product={product}
+                onQuickView={onQuickView}
+                aspectRatio="portrait"
+              />
             </div>
           ))}
         </div>
@@ -79,4 +83,3 @@ export const TrendingCarousel: React.FC<TrendingCarouselProps> = ({ onQuickView 
     </section>
   );
 };
-

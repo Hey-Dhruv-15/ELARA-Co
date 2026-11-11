@@ -1,0 +1,284 @@
+[
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-519217",
+    "status": "Shipped",
+    "trackingNumber": "BD-97187080",
+    "createdAt": "2026-11-11T12:51:59.217Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-282495",
+    "status": "Shipped",
+    "trackingNumber": "BD-77067105",
+    "createdAt": "2026-11-11T12:48:02.495Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-213121",
+    "status": "Shipped",
+    "trackingNumber": "BD-13827174",
+    "createdAt": "2026-11-11T12:46:53.121Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-151708",
+    "status": "Shipped",
+    "trackingNumber": "BD-42032010",
+    "createdAt": "2026-11-11T12:45:51.708Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-111154",
+    "status": "Shipped",
+    "trackingNumber": "BD-77662358",
+    "createdAt": "2026-11-11T12:45:11.154Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-469750",
+    "status": "Shipped",
+    "trackingNumber": "BD-19105758",
+    "createdAt": "2026-11-11T05:04:29.750Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-728552",
+    "status": "Shipped",
+    "trackingNumber": "BD-52889665",
+    "createdAt": "2026-11-11T04:18:48.552Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-634693",
+    "status": "Shipped",
+    "trackingNumber": "BD-85859363",
+    "createdAt": "2026-11-11T04:17:14.693Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-709650",
+    "status": "Shipped",
+    "trackingNumber": "BD-61345548",
+    "createdAt": "2026-11-11T03:45:09.650Z",
+    "updatedAt": "2026-11-11T03:45:09.652Z"
+  },
+  {
+    "items": [
+      {
+        "product": {
+          "id": "elara-hb-01",
+          "name": "Freshwater Pearl Bracelet",
+          "price": 449
+        },
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "fullName": "Priya Verma",
+      "email": "priya.verma@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "pincode": "400001"
+    },
+    "subtotal": 449,
+    "discount": 0,
+    "shippingFee": 79,
+    "total": 528,
+    "paymentMethod": "UPI",
+    "orderId": "ELR-696908",
+    "status": "Shipped",
+    "trackingNumber": "BD-15804864",
+    "createdAt": "2026-11-11T03:28:16.908Z",
+    "updatedAt": "2026-11-11T03:28:16.910Z"
+  }
+]

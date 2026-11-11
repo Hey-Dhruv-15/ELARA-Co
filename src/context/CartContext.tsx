@@ -1,6 +1,8 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { CartItem, Product, AppliedCoupon } from '../types';
 import { useToast } from './ToastContext';
+import { useAuth } from './AuthContext';
+import { BackendService } from '../services/backendService';
 
 interface CartContextType {
   items: CartItem[];
@@ -28,7 +30,6 @@ interface CartContextType {
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
-const CART_STORAGE_KEY = 'elara_co_cart_v1';
 const FREE_SHIPPING_THRESHOLD = 999;
 const STANDARD_SHIPPING_FEE = 79;
 const GIFT_WRAP_PRICE = 49;
@@ -55,28 +56,35 @@ export const AVAILABLE_COUPONS: AppliedCoupon[] = [
 
 export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { showToast } = useToast();
+  const { user, isAuthenticated, openAuthModal } = useAuth();
 
   const [items, setItems] = useState<CartItem[]>(() => {
-    try {
-      const saved = localStorage.getItem(CART_STORAGE_KEY);
-      return saved ? JSON.parse(saved) : [];
-    } catch {
-      return [];
+    if (user?.id) {
+      return BackendService.getUserCart(user.id);
     }
+    return [];
   });
 
   const [isGiftWrap, setIsGiftWrap] = useState<boolean>(false);
   const [giftMessage, setGiftMessage] = useState<string>('');
   const [appliedCoupon, setAppliedCoupon] = useState<AppliedCoupon | null>(null);
 
-  // Sync to local storage
+  // Sync cart when user logs in, switches, or logs out
   useEffect(() => {
-    try {
-      localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(items));
-    } catch (e) {
-      console.error('Failed to save cart to localStorage', e);
+    if (user?.id) {
+      const userItems = BackendService.getUserCart(user.id);
+      setItems(userItems);
+    } else {
+      setItems([]);
     }
-  }, [items]);
+  }, [user?.id]);
+
+  // Sync cart changes to backend storage for current user
+  useEffect(() => {
+    if (user?.id) {
+      BackendService.saveUserCart(user.id, items);
+    }
+  }, [items, user?.id]);
 
   const getVariationKey = (variation?: Record<string, string>): string => {
     if (!variation || Object.keys(variation).length === 0) return '';
@@ -91,6 +99,17 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     quantity = 1,
     selectedVariation?: Record<string, string>
   ) => {
+    // Require authentication before adding to cart
+    if (!isAuthenticated || !user) {
+      openAuthModal({
+        message: 'Please sign in to add gifts to your shopping bag',
+        onSuccess: () => {
+          addToCart(product, quantity, selectedVariation);
+        },
+      });
+      return;
+    }
+
     setItems((prevItems) => {
       const targetVarKey = getVariationKey(selectedVariation);
       const existingIndex = prevItems.findIndex(
@@ -99,13 +118,13 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
           getVariationKey(item.selectedVariation) === targetVarKey
       );
 
+      let updated: CartItem[];
       if (existingIndex > -1) {
-        const updated = [...prevItems];
+        updated = [...prevItems];
         const newQty = updated[existingIndex].quantity + quantity;
         updated[existingIndex].quantity = Math.min(newQty, product.stockCount || 99);
-        return updated;
       } else {
-        return [
+        updated = [
           ...prevItems,
           {
             product,
@@ -114,6 +133,9 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
           },
         ];
       }
+
+      BackendService.saveUserCart(user.id, updated);
+      return updated;
     });
 
     showToast(`Added "${product.name}" to your shopping bag`, 'success', 'Shopping Bag');
@@ -129,13 +151,17 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       if (itemToRemove) {
         showToast(`Removed "${itemToRemove.product.name}" from bag`, 'info');
       }
-      return prevItems.filter(
+      const updated = prevItems.filter(
         (item) =>
           !(
             item.product.id === productId &&
             (!variationKey || getVariationKey(item.selectedVariation) === variationKey)
           )
       );
+      if (user?.id) {
+        BackendService.saveUserCart(user.id, updated);
+      }
+      return updated;
     });
   };
 
@@ -145,8 +171,8 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       return;
     }
 
-    setItems((prevItems) =>
-      prevItems.map((item) => {
+    setItems((prevItems) => {
+      const updated = prevItems.map((item) => {
         if (
           item.product.id === productId &&
           (!variationKey || getVariationKey(item.selectedVariation) === variationKey)
@@ -155,12 +181,19 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
           return { ...item, quantity: validQty };
         }
         return item;
-      })
-    );
+      });
+      if (user?.id) {
+        BackendService.saveUserCart(user.id, updated);
+      }
+      return updated;
+    });
   };
 
   const clearCart = () => {
     setItems([]);
+    if (user?.id) {
+      BackendService.saveUserCart(user.id, []);
+    }
     setAppliedCoupon(null);
     setIsGiftWrap(false);
     setGiftMessage('');
@@ -253,4 +286,3 @@ export const useCart = (): CartContextType => {
   }
   return context;
 };
-

@@ -235,9 +235,18 @@ export const Footer: React.FC = () => {
           <p>
             &copy; {new Date().getFullYear()} ELARA &amp; CO. All Rights Reserved. Little Things. Lasting Feelings.
           </p>
-          <p className="flex items-center gap-1 text-[11px]">
-            Designed with <Heart className="w-3 h-3 text-[#8A4A52] fill-current" /> for aesthetic souls
-          </p>
+          <div className="flex items-center gap-3 text-[11px]">
+            <Link
+              to="/admin/login"
+              className="hover:text-[#8A4A52] dark:hover:text-elara-accent-dark transition-colors flex items-center gap-1 opacity-70 hover:opacity-100"
+            >
+              <span>Admin Atelier</span>
+            </Link>
+            <span className="opacity-30">•</span>
+            <p className="flex items-center gap-1">
+              Designed with <Heart className="w-3 h-3 text-[#8A4A52] fill-current" /> for aesthetic souls
+            </p>
+          </div>
         </div>
       </div>
     </footer>
